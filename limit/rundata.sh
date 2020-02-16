@@ -1,0 +1,15 @@
+read -p "file name:" fname
+root -l -b rundata.cc\(\"${fname}\"\,1\,\"ele\"\,\"bern\"\,4\)
+root -l -b rundata.cc\(\"${fname}\"\,1\,\"mu\"\,\"bern\"\,4\)
+#root -l -b rundata.cc\(\"${fname}\"\,2\,\"ele\"\,\"bern\"\,5\)
+#root -l -b rundata.cc\(\"${fname}\"\,2\,\"mu\"\,\"bern\"\,5\)
+#root -l -b rundata.cc\(\"${fname}\"\,3\,\"ele\"\,\"bern\"\,4\)
+#root -l -b rundata.cc\(\"${fname}\"\,3\,\"mu\"\,\"bern\"\,4\)
+#root -l -b rundata.cc\(\"${fname}\"\,4\,\"ele\"\,\"bern\"\,4\)
+#root -l -b rundata.cc\(\"${fname}\"\,4\,\"mu\"\,\"bern\"\,4\)
+#root -l -b rundata.cc\(\"${fname}\"\,5\,\"ele\"\,\"power\"\,1\)
+#root -l -b rundata.cc\(\"${fname}\"\,5\,\"mu\"\,\"power\"\,1\)
+#root -l -b rundata.cc\(\"${fname}\"\,6789\,\"ele_mu\"\,\"power\"\,1\)
+#root -l -b rundata.cc\(\"${fname}\"\,10\,\"ele\"\,\"bern\"\,3\)
+#root -l -b rundata.cc\(\"${fname}\"\,10\,\"mu\"\,\"bern\"\,3\)
+

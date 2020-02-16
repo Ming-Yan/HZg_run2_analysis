@@ -1,0 +1,4 @@
+CMS_UE_13TeV       lnN     1 1 1 1 1
+CMS_PS_13TeV       lnN     1 1 1 1 1
+CMS_UE_13TeV       lnN     1 1 1 1 1
+CMS_PS_13TeV       lnN     1 1 1 1 1

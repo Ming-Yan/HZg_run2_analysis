@@ -1,0 +1,27 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat6  ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_mu_cat6_2016.root w:BkgPdf_2016_mu_cat6
+shapes data_obs   cat6    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_mu_cat6_2016.root w:data_obs_mu_cat6
+shapes ggH_hzg        cat6    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_6_127.root :newPdf_mu_ggF_cat6
+shapes qqH_hzg        cat6    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_VBF_6_127.root :newPdf_mu_VBF_cat6
+shapes ttH_hzg        cat6    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_6_127.root :newPdf_mu_ggF_cat6
+shapes ZH_hzg        cat6     ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_6_127.root :newPdf_mu_ggF_cat6
+shapes WH_hzg        cat6    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_6_127.root :newPdf_mu_ggF_cat6
+--------------------------------------------------------------------------
+bin               cat6
+observation       -1
+--------------------------------------------------------------------------
+bin              cat6               cat6               cat6               cat6               cat6               cat6
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             3.764646                  0.064293                  0.010261                  0.066416                  0.028944                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+BkgPdf_2016_p0_mu_cat6 flatParam 
+BkgPdf_2016_p1_mu_cat6 flatParam 
+BkgPdf_2016_p2_mu_cat6 flatParam 
+BkgPdf_2016_p3_mu_cat6 flatParam 
+pdfindex_mu_cat6_13TeV discrete

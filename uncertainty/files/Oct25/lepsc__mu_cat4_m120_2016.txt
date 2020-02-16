@@ -1,0 +1,2 @@
+CMS_hzg_delta_mulep_mean_ggF_m120_cat4  param  0	8.33538e-07
+CMS_hzg_delta_mulep_mean_VBF_m120_cat4  param  0	8.35161e-07

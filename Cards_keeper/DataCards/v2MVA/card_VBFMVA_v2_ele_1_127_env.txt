@@ -1,0 +1,23 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat1  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_ele_1.root  multipdf:CMS_hzg_ele_cat1_13TeV_bkgshape
+shapes data_obs        cat1  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_ele_1.root  multipdf:roohist_data_mass_ele_cat1
+shapes ggH_hzg        cat1    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_127.root :newPdf_ele_ggF_cat1
+shapes qqH_hzg        cat1    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_1_127.root :newPdf_ele_VBF_cat1
+shapes ttH_hzg        cat1    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_127.root :newPdf_ele_ggF_cat1
+shapes ZH_hzg        cat1     ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_127.root :newPdf_ele_ggF_cat1
+shapes WH_hzg        cat1    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_127.root :newPdf_ele_ggF_cat1
+--------------------------------------------------------------------------
+bin               cat1
+observation       -1
+--------------------------------------------------------------------------
+bin              cat1               cat1               cat1               cat1               cat1               cat1
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             0.325304                  0.011375                  0.000385                  0.004657                  0.003942                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+pdfindex_ele_cat1_13TeV discrete 

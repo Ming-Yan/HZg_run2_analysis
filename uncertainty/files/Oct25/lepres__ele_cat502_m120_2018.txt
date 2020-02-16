@@ -1,0 +1,2 @@
+CMS_hzg_delta_elelep_sigma_ggF_m120_cat502  param  0	7.03898e-07
+CMS_hzg_delta_elelep_sigma_VBF_m120_cat502  param  0	5.96529e-07

@@ -1,0 +1,61 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat3  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_mu_3.root  multipdf:CMS_hzg_mu_cat3_13TeV_bkgshape
+shapes data_obs        cat3  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_mu_3.root  multipdf:roohist_data_mass_mu_cat3
+shapes ggH_hzg        cat3    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_3_120.root :newPdf_mu_ggF_cat3
+shapes qqH_hzg        cat3    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_VBF_3_120.root :newPdf_mu_VBF_cat3
+shapes ttH_hzg        cat3    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_3_120.root :newPdf_mu_ggF_cat3
+shapes ZH_hzg        cat3     ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_3_120.root :newPdf_mu_ggF_cat3
+shapes WH_hzg        cat3    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_3_120.root :newPdf_mu_ggF_cat3
+--------------------------------------------------------------------------
+bin               cat3
+observation       -1
+--------------------------------------------------------------------------
+bin              cat3               cat3               cat3               cat3               cat3               cat3
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             2.290258                  0.062127                  0.001419                  0.027112                  0.024177                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.032526	1.030819	1.037354	1.029195	1.033044	-
+CMS_IDeff_m_13TeV	lnN	1.010413	1.009994	1.006182	1.012162	1.008921	-
+CMS_JEC_13TeV	lnN	1.000308	1.00458	1.0	1.0	1.0	-
+CMS_JER_13TeV	lnN	1.0	1.003053	1.0	1.0	1.0	-
+CMS_PU_13TeV	lnN	1.00874	1.006105	1.076357	1.004522	1.027157	-
+CMS_R9_13TeV	lnN	-	-	-	-	-	-
+CMS_hzg_PS_13TeV	lnN	1.027541	1.026814	1.027541	1.027541	1.027541	-
+CMS_hzg_UE_13TeV	lnN	1.021656	1.033445	1.021656	1.021656	1.021656	-
+QCDscale_VH	lnN	-	-	-	0.970/1.034	0.994/1.005	-
+QCDscale_ggH	lnN	0.960/1.040	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.059	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_muonRochor_sigma_ttH_cat3	param	0	0.087109
+CMS_hzg_delta_eleEM_mean_WH_cat3	param	0	0.001408
+CMS_hzg_delta_muonRochor_sigma_ZH_cat3	param	0	0.031206
+CMS_hzg_delta_eleEM_sigma_VBF_cat3	param	0	0.152154
+CMS_hzg_delta_eleEM_sigma_WH_cat3	param	0	0.152154
+CMS_hzg_delta_muonRochor_mean_ggF_cat3	param	0	0.000429
+CMS_hzg_delta_muonRochor_sigma_VBF_cat3	param	0	0.087109
+CMS_hzg_delta_muonRochor_sigma_WH_cat3	param	0	0.087109
+CMS_hzg_delta_eleEM_sigma_ggF_cat3	param	0	0.051024
+CMS_hzg_delta_muonRochor_mean_ZH_cat3	param	0	0.000440
+CMS_hzg_delta_eleEM_mean_ZH_cat3	param	0	0.001414
+CMS_hzg_delta_eleEM_mean_VBF_cat3	param	0	0.001408
+CMS_hzg_delta_muonRochor_mean_ttH_cat3	param	0	0.000786
+CMS_hzg_delta_eleEM_sigma_ttH_cat3	param	0	0.152154
+CMS_hzg_delta_muonRochor_mean_WH_cat3	param	0	0.000786
+CMS_hzg_delta_muonRochor_sigma_ggF_cat3	param	0	0.062206
+CMS_hzg_delta_eleEM_mean_ggF_cat3	param	0	0.001394
+CMS_hzg_delta_muonRochor_mean_VBF_cat3	param	0	0.000786
+CMS_hzg_delta_eleEM_sigma_ZH_cat3	param	0	0.048107
+CMS_hzg_delta_eleEM_mean_ttH_cat3	param	0	0.001408
+pdfindex_mu_cat3_13TeV discrete 

@@ -1,0 +1,2 @@
+CMS_hzg_delta_mulep_sigma_ggF_m121_cat502  param  0	7.32268e-07
+CMS_hzg_delta_mulep_sigma_VBF_m121_cat502  param  0	6.67553e-07

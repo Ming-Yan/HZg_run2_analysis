@@ -1,0 +1,28 @@
+CMS_HLTeff_e_13TeV	lnN	1.008742	1.008761	1.00922	1.008961	1.008985	-
+CMS_HLTeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_e_13TeV	lnN	1.018705	1.019518	1.020068	1.019159	1.019761	-
+CMS_IDeff_g_13TeV	lnN	1.022516	1.022264	1.023246	1.024056	1.022618	-
+CMS_IDeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_JEC_13TeV	lnN	1.005256	1.012333	1.002651	1.002651	1.002651	-
+CMS_JER_13TeV	lnN	1.00035	1.001	1.0	1.0	1.000663	-
+CMS_PU_13TeV	lnN	1.012774	1.011958	1.002148	1.004414	1.028418	-
+CMS_R9_13TeV	lnN	-	-	-	-	-	-
+CMS_hzg_PS_13TeV	lnN	1.05204	1.035352	1.05204	1.05204	1.05204	-
+CMS_hzg_UE_13TeV	lnN	1.016112	1.010981	1.016112	1.016112	1.016112	-
+QCDscale_VH	lnN	-	-	-	0.970/1.034	0.994/1.005	-
+QCDscale_ggH	lnN	0.960/1.040	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.059	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_eleEM_sigma_ttH_cat502	param	0	0.059042
+CMS_hzg_delta_eleEM_sigma_ZH_cat502	param	0	0.036620
+CMS_hzg_delta_eleEM_mean_WH_cat502	param	0	0.001720
+CMS_hzg_delta_eleEM_sigma_VBF_cat502	param	0	0.059042
+CMS_hzg_delta_eleEM_sigma_ggF_cat502	param	0	0.029129
+CMS_hzg_delta_eleEM_mean_ttH_cat502	param	0	0.001720
+CMS_hzg_delta_eleEM_sigma_WH_cat502	param	0	0.059042
+CMS_hzg_delta_eleEM_mean_ggF_cat502	param	0	0.000311
+CMS_hzg_delta_eleEM_mean_ZH_cat502	param	0	0.001715
+CMS_hzg_delta_eleEM_mean_VBF_cat502	param	0	0.001720

@@ -1,0 +1,38 @@
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.031856	1.033905	1.030382	1.025828	1.029319	-
+CMS_IDeff_m_13TeV	lnN	1.003654	1.003899	1.003719	1.004061	1.0041	-
+CMS_JEC_13TeV	lnN	1.000151	1.003442	1.004847	1.004847	1.004847	-
+CMS_JER_13TeV	lnN	1.000302	1.0	1.0	1.0	1.001616	-
+CMS_PU_13TeV	lnN	1.009546	1.015847	1.021647	1.015635	1.001942	-
+CMS_R9_13TeV	lnN	1.048193	1.048918	1.047788	1.047788	1.047788	-
+CMS_hzg_PS_13TeV	lnN	1.015209	1.042806	1.015209	1.015209	1.015209	-
+CMS_hzg_UE_13TeV	lnN	1.002916	1.035305	1.002916	1.002916	1.002916	-
+QCDscale_VH	lnN	-	-	-	0.970/1.034	0.994/1.005	-
+QCDscale_ggH	lnN	0.960/1.040	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.059	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_muonRochor_sigma_ttH_cat1	param	0	0.039104
+CMS_hzg_delta_muonRochor_mean_ggF_cat1	param	0	0.000371
+CMS_hzg_delta_eleEM_mean_WH_cat1	param	0	0.001465
+CMS_hzg_delta_muonRochor_sigma_ZH_cat1	param	0	0.038206
+CMS_hzg_delta_eleEM_sigma_VBF_cat1	param	0	0.078311
+CMS_hzg_delta_eleEM_sigma_ggF_cat1	param	0	0.055232
+CMS_hzg_delta_eleEM_sigma_ZH_cat1	param	0	0.040259
+CMS_hzg_delta_eleEM_sigma_WH_cat1	param	0	0.078311
+CMS_hzg_delta_muonRochor_sigma_WH_cat1	param	0	0.039104
+CMS_hzg_delta_muonRochor_mean_ZH_cat1	param	0	0.000376
+CMS_hzg_delta_eleEM_mean_ZH_cat1	param	0	0.001458
+CMS_hzg_delta_eleEM_mean_VBF_cat1	param	0	0.001465
+CMS_hzg_delta_muonRochor_mean_ttH_cat1	param	0	0.000437
+CMS_hzg_delta_eleEM_sigma_ttH_cat1	param	0	0.078311
+CMS_hzg_delta_muonRochor_mean_WH_cat1	param	0	0.000437
+CMS_hzg_delta_muonRochor_sigma_ggF_cat1	param	0	0.039953
+CMS_hzg_delta_eleEM_mean_ggF_cat1	param	0	0.001469
+CMS_hzg_delta_muonRochor_mean_VBF_cat1	param	0	0.000437
+CMS_hzg_delta_muonRochor_sigma_VBF_cat1	param	0	0.039104
+CMS_hzg_delta_eleEM_mean_ttH_cat1	param	0	0.001465

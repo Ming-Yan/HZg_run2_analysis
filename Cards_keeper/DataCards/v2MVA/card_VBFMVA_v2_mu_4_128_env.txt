@@ -1,0 +1,59 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat4  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_mu_4.root  multipdf:CMS_hzg_mu_cat4_13TeV_bkgshape
+shapes data_obs        cat4  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_mu_4.root  multipdf:roohist_data_mass_mu_cat4
+shapes ggH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes qqH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_VBF_4_128.root :newPdf_mu_VBF_cat4
+shapes ttH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes ZH_hzg        cat4     ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes WH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+--------------------------------------------------------------------------
+bin               cat4
+observation       -1
+--------------------------------------------------------------------------
+bin              cat4               cat4               cat4               cat4               cat4               cat4
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             10.267666                  0.248599                  0.007662                  0.092768                  0.081588                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.014198	1.013847	1.014902	1.014005	1.014138	-
+CMS_IDeff_m_13TeV	lnN	1.006081	1.006215	1.006843	1.006831	1.00661	-
+CMS_JEC_13TeV	lnN	1.000395	1.007656	1.000425	1.000425	1.000425	-
+CMS_PU_13TeV	lnN	1.006767	1.013956	1.055968	1.010747	1.009646	-
+CMS_hzg_PS_13TeV	lnN	1.022201	1.059111	1.022201	1.022201	1.022201	-
+CMS_hzg_UE_13TeV	lnN	1.014697	1.071522	1.014697	1.014697	1.014697	-
+QCDscale_VH	lnN	-	-	-	0.969/1.039	0.993/1.005	-
+QCDscale_ggH	lnN	0.962/1.038	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.908/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_eleEM_sigma_WH_cat4	param	0	0.067567
+CMS_hzg_delta_eleEM_sigma_ZH_cat4	param	0	0.045546
+CMS_hzg_delta_muonRochor_mean_VBF_cat4	param	0	0.000551
+CMS_hzg_delta_muonRochor_sigma_ttH_cat4	param	0	0.064454
+CMS_hzg_delta_eleEM_mean_ttH_cat4	param	0	0.001480
+CMS_hzg_delta_muonRochor_mean_ttH_cat4	param	0	0.000551
+CMS_hzg_delta_muonRochor_sigma_VBF_cat4	param	0	0.064454
+CMS_hzg_delta_eleEM_mean_VBF_cat4	param	0	0.001480
+CMS_hzg_delta_muonRochor_mean_ggF_cat4	param	0	0.000371
+CMS_hzg_delta_eleEM_mean_WH_cat4	param	0	0.001480
+CMS_hzg_delta_muonRochor_mean_ZH_cat4	param	0	0.000330
+CMS_hzg_delta_eleEM_sigma_ttH_cat4	param	0	0.067567
+CMS_hzg_delta_eleEM_sigma_ggF_cat4	param	0	0.068628
+CMS_hzg_delta_eleEM_sigma_VBF_cat4	param	0	0.067567
+CMS_hzg_delta_eleEM_mean_ZH_cat4	param	0	0.001434
+CMS_hzg_delta_muonRochor_sigma_WH_cat4	param	0	0.064454
+CMS_hzg_delta_muonRochor_mean_WH_cat4	param	0	0.000551
+CMS_hzg_delta_muonRochor_sigma_ggF_cat4	param	0	0.063693
+CMS_hzg_delta_eleEM_mean_ggF_cat4	param	0	0.001450
+CMS_hzg_delta_muonRochor_sigma_ZH_cat4	param	0	0.070570
+pdfindex_mu_cat4_13TeV discrete 

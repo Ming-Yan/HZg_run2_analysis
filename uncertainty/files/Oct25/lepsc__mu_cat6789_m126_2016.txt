@@ -1,0 +1,3 @@
+CMS_hzg_delta_mulep_mean_ttH_m126_cat6789  param  0	7.74684e-07
+CMS_hzg_delta_mulep_mean_ZH_m126_cat6789  param  0	7.69022e-07
+CMS_hzg_delta_mulep_mean_WH_m126_cat6789  param  0	7.70156e-07

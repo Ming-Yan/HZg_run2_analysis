@@ -1,0 +1,25 @@
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_UE_13TeV      lnN     1  1  1  1   1
+CMS_PS_13TeV      lnN     1  1  1  1   1
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_R9_13TeV      lnN     0.99408  0.997406  0.962058  0.906503   0.966881
+CMS_hzg_delta_eleEM_mean_ggF_cat501  param  0	0.00184857
+CMS_hzg_delta_eleEM_sigma_ggF_cat501  param  0	0.383203
+CMS_hzg_delta_eleEM_mean_VBF_cat501  param  0	0.00314632
+CMS_hzg_delta_eleEM_sigma_VBF_cat501  param  0	0.0960499
+CMS_R9_13TeV      lnN     0.99408  0.997406  0.962058  0.906503   0.966881
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_JEC_13TeV      lnN     1.11204  1.06194  1.05461  1.10442   1.11287
+CMS_JER_13TeV      lnN     1.07143  0.995742  1.05491  1.1811   1.26211
+CMS_R9_13TeV      lnN     0.99408  0.997406  0.962058  0.906503   0.966881
+CMS_hzg_delta_eleEM_mean_ggF_cat501  param  0	0.00184857
+CMS_hzg_delta_eleEM_sigma_ggF_cat501  param  0	0.383203
+CMS_hzg_delta_eleEM_mean_VBF_cat501  param  0	0.00314632
+CMS_hzg_delta_eleEM_sigma_VBF_cat501  param  0	0.0960499

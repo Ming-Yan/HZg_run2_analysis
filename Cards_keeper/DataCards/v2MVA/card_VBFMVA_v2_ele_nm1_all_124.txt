@@ -1,0 +1,196 @@
+Combination of card_VBFMVA_v2_ele_1_124.txt  card_VBFMVA_v2_ele_2_124.txt  card_VBFMVA_v2_ele_3_124.txt  card_VBFMVA_v2_ele_4_124.txt  card_VBFMVA_v2_ele_5_124.txt  card_VBFMVA_v2_ele_501_124.txt  card_VBFMVA_v2_ele_502_124.txt  card_VBFMVA_v2_ele_10_124.txt
+imax 8 number of bins
+jmax 5 number of processes minus 1
+kmax 96 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes WH_hzg    ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_124.root :newPdf_ele_ggF_cat1
+shapes ZH_hzg    ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_124.root :newPdf_ele_ggF_cat1
+shapes bgr       ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat1_2016.root w:BkgPdf_2016_ele_cat1
+shapes data_obs  ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat1_2016.root w:data_obs_ele_cat1
+shapes ggH_hzg   ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_124.root :newPdf_ele_ggF_cat1
+shapes qqH_hzg   ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_1_124.root :newPdf_ele_VBF_cat1
+shapes ttH_hzg   ch1       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_1_124.root :newPdf_ele_ggF_cat1
+shapes WH_hzg    ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_2_124.root :newPdf_ele_ggF_cat2
+shapes ZH_hzg    ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_2_124.root :newPdf_ele_ggF_cat2
+shapes bgr       ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat2_2016.root w:BkgPdf_2016_ele_cat2
+shapes data_obs  ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat2_2016.root w:data_obs_ele_cat2
+shapes ggH_hzg   ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_2_124.root :newPdf_ele_ggF_cat2
+shapes qqH_hzg   ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_2_124.root :newPdf_ele_VBF_cat2
+shapes ttH_hzg   ch2       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_2_124.root :newPdf_ele_ggF_cat2
+shapes WH_hzg    ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_3_124.root :newPdf_ele_ggF_cat3
+shapes ZH_hzg    ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_3_124.root :newPdf_ele_ggF_cat3
+shapes bgr       ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat3_2016.root w:BkgPdf_2016_ele_cat3
+shapes data_obs  ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat3_2016.root w:data_obs_ele_cat3
+shapes ggH_hzg   ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_3_124.root :newPdf_ele_ggF_cat3
+shapes qqH_hzg   ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_3_124.root :newPdf_ele_VBF_cat3
+shapes ttH_hzg   ch3       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_3_124.root :newPdf_ele_ggF_cat3
+shapes WH_hzg    ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_124.root :newPdf_ele_ggF_cat4
+shapes ZH_hzg    ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_124.root :newPdf_ele_ggF_cat4
+shapes bgr       ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat4_2016.root w:BkgPdf_2016_ele_cat4
+shapes data_obs  ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat4_2016.root w:data_obs_ele_cat4
+shapes ggH_hzg   ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_124.root :newPdf_ele_ggF_cat4
+shapes qqH_hzg   ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_4_124.root :newPdf_ele_VBF_cat4
+shapes ttH_hzg   ch4       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_124.root :newPdf_ele_ggF_cat4
+shapes WH_hzg    ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_5_124.root :newPdf_ele_ggF_cat5
+shapes ZH_hzg    ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_5_124.root :newPdf_ele_ggF_cat5
+shapes bgr       ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat5_2016.root w:BkgPdf_2016_ele_cat5
+shapes data_obs  ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_VBFMVA_v2_WS_ele_cat5_2016.root w:data_obs_ele_cat5
+shapes ggH_hzg   ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_5_124.root :newPdf_ele_ggF_cat5
+shapes qqH_hzg   ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_5_124.root :newPdf_ele_VBF_cat5
+shapes ttH_hzg   ch5       ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_5_124.root :newPdf_ele_ggF_cat5
+shapes WH_hzg    ch6       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_501_124.root :newPdf_ele_VBF_cat501
+shapes ZH_hzg    ch6       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_501_124.root :newPdf_ele_VBF_cat501
+shapes bgr       ch6       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat501_2016.root w:BkgPdf_2016_ele_cat501
+shapes data_obs  ch6       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat501_2016.root w:data_obs_ele_cat501
+shapes ggH_hzg   ch6       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_501_124.root :newPdf_ele_ggF_cat501
+shapes qqH_hzg   ch6       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_501_124.root :newPdf_ele_VBF_cat501
+shapes ttH_hzg   ch6       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_501_124.root :newPdf_ele_VBF_cat501
+shapes WH_hzg    ch7       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_502_124.root :newPdf_ele_VBF_cat502
+shapes ZH_hzg    ch7       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_502_124.root :newPdf_ele_VBF_cat502
+shapes bgr       ch7       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat502_2016.root w:BkgPdf_2016_ele_cat502
+shapes data_obs  ch7       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat502_2016.root w:data_obs_ele_cat502
+shapes ggH_hzg   ch7       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_502_124.root :newPdf_ele_ggF_cat502
+shapes qqH_hzg   ch7       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_502_124.root :newPdf_ele_VBF_cat502
+shapes ttH_hzg   ch7       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_502_124.root :newPdf_ele_VBF_cat502
+shapes WH_hzg    ch8       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_124.root :newPdf_ele_ggF_cat10
+shapes ZH_hzg    ch8       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_124.root :newPdf_ele_ggF_cat10
+shapes bgr       ch8       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat10_2016.root w:BkgPdf_2016_ele_cat10
+shapes data_obs  ch8       ../../PDFs/VBFMVA_v2_refit_tag/bkg_VBFMVA_v2_WS_ele_cat10_2016.root w:data_obs_ele_cat10
+shapes ggH_hzg   ch8       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_124.root :newPdf_ele_ggF_cat10
+shapes qqH_hzg   ch8       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_10_124.root :newPdf_ele_VBF_cat10
+shapes ttH_hzg   ch8       ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_124.root :newPdf_ele_ggF_cat10
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1          ch2          ch3          ch4          ch5          ch6          ch7          ch8        
+observation  -1.0         -1.0         -1.0         -1.0         -1.0         -1.0         -1.0         -1.0       
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                   ch1          ch1          ch1          ch1          ch1          ch1          ch2          ch2          ch2          ch2          ch2          ch2          ch3          ch3          ch3          ch3          ch3          ch3          ch4          ch4          ch4          ch4          ch4          ch4          ch5          ch5          ch5          ch5          ch5          ch5          ch6          ch6          ch6          ch6          ch6          ch6          ch7          ch7          ch7          ch7          ch7          ch7          ch8          ch8          ch8          ch8          ch8          ch8        
+process                               ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr        
+process                               -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1          
+rate                                  0.000691     0.0319       0.000439     0.0012       0.0000       1.0000       0.0028       0.2674       0.0030       0.0085       0.000277     1.0000       0.0224       2.5268       0.0221       0.0681       0.0012       1.0000       0.0578       6.6087       0.0551       0.1519       0.0042       1.0000       0.0403       3.7199       0.0254       0.0661       0.0041       1.0000       0.0139       0.5239       0.0180       0.5654       0.0168       1.0000       0.1027       1.4851       0.1155       0.2847       0.0856       1.0000       0.1455       2.2455       0.1180       0.3185       0.0227       1.0000     
+----------------------------------------------------------------------------------------------------------------------------------
+BR_hzg                  lnN           0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -          
+CMS_HLTeff_e_13TeV      lnN           1.008587     1.008317     1.008593     1.008307     1.008951     -            1.008752     1.008459     1.009127     1.008477     1.008578     -            1.009137     1.008622     1.009104     1.008594     1.008538     -            1.00976      1.008925     1.00954      1.008912     1.009452     -            1.008954     1.009102     1.009456     1.008717     1.008722     -            1.008954     1.009102     1.009456     1.008717     1.008722     -            1.009215     1.008686     1.009142     1.008728     1.009029     -            1.009215     1.008686     1.009142     1.008728     1.009029     -          
+CMS_IDeff_e_13TeV       lnN           1.01445      1.013723     1.014284     1.014003     1.015017     -            1.014267     1.013583     1.014781     1.013752     1.014194     -            1.018449     1.018568     1.018526     1.018999     1.019938     -            1.017337     1.015592     1.01719      1.016694     1.018551     -            1.02415      1.019118     1.021005     1.019034     1.021686     -            1.02415      1.019118     1.021005     1.019034     1.021686     -            1.019738     1.018872     1.019569     1.019288     1.020108     -            1.019738     1.018872     1.019569     1.019288     1.020108     -          
+CMS_IDeff_g_13TeV       lnN           1.024013     1.025628     1.026253     1.026456     1.026583     -            1.023336     1.025235     1.025647     1.025387     1.022517     -            1.024706     1.027167     1.025288     1.02619      1.025319     -            1.013869     1.014523     1.014346     1.014369     1.013489     -            1.018759     1.022463     1.019365     1.021633     1.021        -            1.018759     1.022463     1.019365     1.021633     1.021        -            1.02164      1.021683     1.021458     1.021268     1.022152     -            1.02164      1.021683     1.021458     1.021268     1.022152     -          
+CMS_JEC_13TeV           lnN           1.00075      1.000616     1.00075      1.004396     1.00075      -            1.002636     1.000667     1.002636     1.004174     1.002636     -            1.0          1.000246     1.0          1.008301     1.0          -            1.0          1.000562     1.0          1.010404     1.0          -            1.066338     1.052875     1.066338     1.020464     1.066338     -            1.066338     1.052875     1.066338     1.020464     1.066338     -            1.002995     1.003818     1.002995     1.012299     1.002995     -            1.002995     1.003818     1.002995     1.012299     1.002995     -          
+CMS_PU_13TeV            lnN           1.022488     1.012528     1.013832     1.014184     1.016537     -            1.006625     1.001543     1.003786     1.005017     1.021752     -            1.002183     1.009625     1.009818     1.011204     1.01696      -            1.004212     1.01286      1.010204     1.010303     1.023557     -            1.021241     1.022744     1.018612     1.007847     1.029538     -            1.021241     1.022744     1.018612     1.007847     1.029538     -            1.005731     1.009314     1.010631     1.008553     1.00597      -            1.005731     1.009314     1.010631     1.008553     1.00597      -          
+CMS_hzg_PS_13TeV        lnN           1.006919     1.006919     1.006919     1.046143     1.006919     -            1.009048     1.009048     1.009048     1.04668      1.009048     -            1.014902     1.014902     1.014902     1.062675     1.014902     -            1.033788     1.033788     1.033788     1.05192      1.033788     -            1.090533     1.090533     1.090533     1.033956     1.090533     -            1.090533     1.090533     1.090533     1.033956     1.090533     -            1.05204      1.05204      1.05204      1.035352     1.05204      -            1.05204      1.05204      1.05204      1.035352     1.05204      -          
+CMS_hzg_UE_13TeV        lnN           1.008147     1.008147     1.008147     1.009989     1.008147     -            1.038588     1.038588     1.038588     1.050263     1.038588     -            1.003785     1.003785     1.003785     1.03511      1.003785     -            1.014258     1.014258     1.014258     1.031634     1.014258     -            1.054358     1.054358     1.054358     1.026439     1.054358     -            1.054358     1.054358     1.054358     1.026439     1.054358     -            1.016112     1.016112     1.016112     1.010981     1.016112     -            1.016112     1.016112     1.016112     1.010981     1.016112     -          
+QCDscale_VH             lnN           0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -            0.969/1.036  -            0.994/1.006  -            -            -          
+QCDscale_ggH            lnN           -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -            -            0.961/1.039  -            -            -            -          
+QCDscale_qqH            lnN           -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -          
+QCDscale_ttH            lnN           -            -            -            -            -            -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -            -            -            -            -            0.908/1.059  -          
+lumi_13TeV              lnN           1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -            1.025        1.025        1.025        1.025        1.025        -          
+pdf_Higgs_gg            lnN           -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -          
+pdf_Higgs_qqbar         lnN           0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -          
+pdf_Higgs_ttH           lnN           -            -            -            -            -            -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -          
+CMS_hzg_delta_eleEM_mean_ZH_cat502  param  0 0.001715
+CMS_hzg_delta_eleEM_sigma_WH_cat5  param  0 0.766407
+CMS_hzg_delta_eleEM_sigma_WH_cat4  param  0 0.058333
+CMS_hzg_delta_eleEM_sigma_WH_cat3  param  0 0.152154
+CMS_hzg_delta_eleEM_sigma_WH_cat2  param  0 0.142523
+CMS_hzg_delta_eleEM_sigma_WH_cat1  param  0 0.078311
+CMS_hzg_delta_eleEM_mean_ttH_cat3  param  0 0.001408
+CMS_hzg_delta_eleEM_mean_ttH_cat502  param  0 0.001720
+CMS_hzg_delta_eleEM_mean_ggF_cat501  param  0 0.001717
+CMS_hzg_delta_eleEM_mean_ggF_cat502  param  0 0.000311
+CMS_hzg_delta_eleEM_mean_WH_cat3  param  0 0.001408
+CMS_hzg_delta_eleEM_mean_ttH_cat501  param  0 0.001780
+CMS_hzg_delta_eleEM_sigma_ttH_cat502  param  0 0.059042
+CMS_hzg_delta_eleEM_sigma_ZH_cat10  param  0 0.036620
+CMS_hzg_delta_eleEM_sigma_WH_cat501  param  0 0.766407
+CMS_hzg_delta_eleEM_mean_ggF_cat2  param  0 0.001728
+CMS_hzg_delta_eleEM_mean_ggF_cat3  param  0 0.001394
+CMS_hzg_delta_eleEM_mean_VBF_cat501  param  0 0.001780
+CMS_hzg_delta_eleEM_mean_ggF_cat1  param  0 0.001469
+CMS_hzg_delta_eleEM_sigma_WH_cat502  param  0 0.059042
+CMS_hzg_delta_eleEM_mean_ggF_cat4  param  0 0.001500
+CMS_hzg_delta_eleEM_mean_ggF_cat5  param  0 0.001717
+CMS_hzg_delta_eleEM_sigma_WH_cat10  param  0 0.059042
+CMS_hzg_delta_eleEM_sigma_ZH_cat2  param  0 0.021772
+CMS_hzg_delta_eleEM_sigma_ZH_cat3  param  0 0.048107
+CMS_hzg_delta_eleEM_sigma_ZH_cat1  param  0 0.040259
+CMS_hzg_delta_eleEM_sigma_ZH_cat502  param  0 0.036620
+CMS_hzg_delta_eleEM_sigma_ZH_cat4  param  0 0.043904
+CMS_hzg_delta_eleEM_sigma_ZH_cat5  param  0 0.058077
+CMS_hzg_delta_eleEM_sigma_VBF_cat5  param  0 0.766407
+CMS_hzg_delta_eleEM_sigma_VBF_cat4  param  0 0.058333
+CMS_hzg_delta_eleEM_sigma_VBF_cat502  param  0 0.059042
+CMS_hzg_delta_eleEM_sigma_VBF_cat1  param  0 0.078311
+CMS_hzg_delta_eleEM_sigma_VBF_cat3  param  0 0.152154
+CMS_hzg_delta_eleEM_sigma_VBF_cat2  param  0 0.142523
+CMS_hzg_delta_eleEM_mean_ttH_cat10  param  0 0.001720
+CMS_hzg_delta_eleEM_sigma_ggF_cat5  param  0 0.051537
+CMS_hzg_delta_eleEM_sigma_ggF_cat4  param  0 0.075991
+CMS_hzg_delta_eleEM_sigma_ggF_cat3  param  0 0.051024
+CMS_hzg_delta_eleEM_sigma_ggF_cat2  param  0 0.025285
+CMS_hzg_delta_eleEM_sigma_ggF_cat1  param  0 0.055232
+CMS_hzg_delta_eleEM_mean_ttH_cat2  param  0 0.001659
+CMS_hzg_delta_eleEM_mean_WH_cat1  param  0 0.001465
+CMS_hzg_delta_eleEM_mean_WH_cat2  param  0 0.001659
+CMS_hzg_delta_eleEM_mean_ttH_cat1  param  0 0.001465
+CMS_hzg_delta_eleEM_mean_WH_cat4  param  0 0.001550
+CMS_hzg_delta_eleEM_mean_WH_cat5  param  0 0.001780
+CMS_hzg_delta_eleEM_mean_ttH_cat4  param  0 0.001550
+CMS_hzg_delta_eleEM_mean_ttH_cat5  param  0 0.001780
+CMS_hzg_delta_eleEM_sigma_ttH_cat3  param  0 0.152154
+CMS_hzg_delta_eleEM_sigma_ttH_cat2  param  0 0.142523
+CMS_hzg_delta_eleEM_sigma_ttH_cat1  param  0 0.078311
+CMS_hzg_delta_eleEM_mean_WH_cat502  param  0 0.001720
+CMS_hzg_delta_eleEM_sigma_ttH_cat5  param  0 0.766407
+CMS_hzg_delta_eleEM_sigma_ttH_cat4  param  0 0.058333
+CMS_hzg_delta_eleEM_sigma_VBF_cat10  param  0 0.059042
+CMS_hzg_delta_eleEM_mean_WH_cat501  param  0 0.001780
+CMS_hzg_delta_eleEM_mean_ZH_cat501  param  0 0.001629
+CMS_hzg_delta_eleEM_mean_VBF_cat4  param  0 0.001550
+CMS_hzg_delta_eleEM_mean_VBF_cat5  param  0 0.001780
+CMS_hzg_delta_eleEM_sigma_ttH_cat10  param  0 0.059042
+CMS_hzg_delta_eleEM_sigma_ZH_cat501  param  0 0.058077
+CMS_hzg_delta_eleEM_mean_VBF_cat1  param  0 0.001465
+CMS_hzg_delta_eleEM_mean_VBF_cat2  param  0 0.001659
+CMS_hzg_delta_eleEM_mean_VBF_cat3  param  0 0.001408
+CMS_hzg_delta_eleEM_mean_ZH_cat5  param  0 0.001629
+CMS_hzg_delta_eleEM_mean_ZH_cat4  param  0 0.001487
+CMS_hzg_delta_eleEM_mean_ZH_cat1  param  0 0.001458
+CMS_hzg_delta_eleEM_mean_VBF_cat10  param  0 0.001720
+CMS_hzg_delta_eleEM_mean_ZH_cat3  param  0 0.001414
+CMS_hzg_delta_eleEM_mean_ZH_cat2  param  0 0.001601
+CMS_hzg_delta_eleEM_sigma_VBF_cat501  param  0 0.766407
+CMS_hzg_delta_eleEM_mean_ggF_cat10  param  0 0.000311
+CMS_hzg_delta_eleEM_sigma_ggF_cat10  param  0 0.029129
+CMS_hzg_delta_eleEM_mean_WH_cat10  param  0 0.001720
+CMS_hzg_delta_eleEM_mean_VBF_cat502  param  0 0.001720
+CMS_hzg_delta_eleEM_sigma_ttH_cat501  param  0 0.766407
+CMS_hzg_delta_eleEM_mean_ZH_cat10  param  0 0.001715
+CMS_hzg_delta_eleEM_sigma_ggF_cat501  param  0 0.051537
+CMS_hzg_delta_eleEM_sigma_ggF_cat502  param  0 0.029129
+BkgPdf_2016_p0_ele_cat4  flatParam
+BkgPdf_2016_p0_ele_cat1  flatParam
+BkgPdf_2016_p0_ele_cat2  flatParam
+BkgPdf_2016_p0_ele_cat3  flatParam
+BkgPdf_2016_p1_ele_cat10  flatParam
+BkgPdf_2016_p0_ele_cat10  flatParam
+BkgPdf_2016_p2_ele_cat2  flatParam
+BkgPdf_2016_p1_ele_cat3  flatParam
+BkgPdf_2016_p1_ele_cat2  flatParam
+BkgPdf_2016_p1_ele_cat1  flatParam
+BkgPdf_2016_p3_ele_cat2  flatParam
+BkgPdf_2016_p1_ele_cat5  flatParam
+BkgPdf_2016_p1_ele_cat4  flatParam
+BkgPdf_2016_p3_ele_cat1  flatParam
+BkgPdf_2016_p2_ele_cat3  flatParam
+BkgPdf_2016_p3_ele_cat3  flatParam
+BkgPdf_2016_p2_ele_cat1  flatParam
+BkgPdf_2016_p3_ele_cat4  flatParam
+BkgPdf_2016_p2_ele_cat4  flatParam
+BkgPdf_2016_p1_ele_cat501  flatParam
+BkgPdf_2016_p1_ele_cat502  flatParam
+BkgPdf_2016_p2_ele_cat10  flatParam
+pdfindex_ele_cat502_13TeV  discrete
+pdfindex_ele_cat1_13TeV  discrete
+pdfindex_ele_cat2_13TeV  discrete
+pdfindex_ele_cat5_13TeV  discrete
+pdfindex_ele_cat501_13TeV  discrete
+pdfindex_ele_cat10_13TeV  discrete
+pdfindex_ele_cat3_13TeV  discrete
+pdfindex_ele_cat4_13TeV  discrete

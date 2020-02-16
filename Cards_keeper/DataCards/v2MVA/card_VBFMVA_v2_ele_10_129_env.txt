@@ -1,0 +1,49 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat10  ../../bkgmodel/VBFMVA_v2_refit_tag/bkg_ele_10.root  multipdf:CMS_hzg_ele_cat10_13TeV_bkgshape
+shapes data_obs        cat10  ../../bkgmodel/VBFMVA_v2_refit_tag/bkg_ele_10.root  multipdf:roohist_data_mass_ele_cat10
+shapes ggH_hzg        cat10    ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_129.root :newPdf_ele_ggF_cat10
+shapes qqH_hzg        cat10    ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_VBF_10_129.root :newPdf_ele_VBF_cat10
+shapes ttH_hzg        cat10    ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_129.root :newPdf_ele_ggF_cat10
+shapes ZH_hzg        cat10     ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_129.root :newPdf_ele_ggF_cat10
+shapes WH_hzg        cat10    ../../PDFs/VBFMVA_v2_refit_tag/WS_VBFMVA_v2_ele_ggF_10_129.root :newPdf_ele_ggF_cat10
+--------------------------------------------------------------------------
+bin               cat10
+observation       -1
+--------------------------------------------------------------------------
+bin              cat10               cat10               cat10               cat10               cat10               cat10
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             3.223606                  0.463506                  0.020486                  0.178315                  0.160623                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+CMS_HLTeff_e_13TeV	lnN	1.008628	1.008724	1.009084	1.009349	1.009086	-
+CMS_HLTeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_e_13TeV	lnN	1.01901	1.019288	1.020092	1.019916	1.020317	-
+CMS_IDeff_g_13TeV	lnN	1.019964	1.020133	1.019521	1.022273	1.019875	-
+CMS_IDeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_JEC_13TeV	lnN	1.003639	1.012278	1.002413	1.002413	1.002413	-
+CMS_PU_13TeV	lnN	1.010931	1.010199	1.007171	1.007859	1.008215	-
+CMS_hzg_PS_13TeV	lnN	1.05204	1.035352	1.05204	1.05204	1.05204	-
+CMS_hzg_UE_13TeV	lnN	1.016112	1.010981	1.016112	1.016112	1.016112	-
+QCDscale_VH	lnN	-	-	-	0.968/1.038	0.993/1.005	-
+QCDscale_ggH	lnN	0.962/1.038	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_eleEM_mean_WH_cat10	param	0	0.001649
+CMS_hzg_delta_eleEM_mean_ggF_cat10	param	0	0.000312
+CMS_hzg_delta_eleEM_sigma_VBF_cat10	param	0	0.063492
+CMS_hzg_delta_eleEM_sigma_ttH_cat10	param	0	0.063492
+CMS_hzg_delta_eleEM_sigma_ZH_cat10	param	0	0.038195
+CMS_hzg_delta_eleEM_mean_VBF_cat10	param	0	0.001649
+CMS_hzg_delta_eleEM_mean_ttH_cat10	param	0	0.001649
+CMS_hzg_delta_eleEM_mean_ZH_cat10	param	0	0.001650
+CMS_hzg_delta_eleEM_sigma_ggF_cat10	param	0	0.032460
+CMS_hzg_delta_eleEM_sigma_WH_cat10	param	0	0.063492
+pdfindex_ele_cat10_13TeV discrete 

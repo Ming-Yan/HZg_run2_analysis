@@ -1,0 +1,51 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat4  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_ele_4.root  multipdf:CMS_hzg_ele_cat4_13TeV_bkgshape
+shapes data_obs        cat4  ../../bkgmodel/VBFMVA_v2_refit_wboost_comb_newcat01379/bkg_ele_4.root  multipdf:roohist_data_mass_ele_cat4
+shapes ggH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_125.root :newPdf_ele_ggF_cat4
+shapes qqH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_VBF_4_125.root :newPdf_ele_VBF_cat4
+shapes ttH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_125.root :newPdf_ele_ggF_cat4
+shapes ZH_hzg        cat4     ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_125.root :newPdf_ele_ggF_cat4
+shapes WH_hzg        cat4    ../../PDFs/VBFMVA_v2_refit_wboost_comb_newcat01379/WS_VBFMVA_v2_ele_ggF_4_125.root :newPdf_ele_ggF_cat4
+--------------------------------------------------------------------------
+bin               cat4
+observation       -1
+--------------------------------------------------------------------------
+bin              cat4               cat4               cat4               cat4               cat4               cat4
+process          ggH_hzg              qqH_hzg             ttH_hzg              ZH_hzg             WH_hzg             bgr
+process          -4                  -3                  -2                  -1                  0                   1
+rate             7.089051                  0.163555                  0.004728                  0.061717                  0.056253                  1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN               1.025               1.025               1.025               1.025               1.025               -
+BR_hzg	  lnN	            0.943/1.057	        0.943/1.057	        0.943/1.057	    0.943/1.057   0.943/1.057	    -
+CMS_HLTeff_e_13TeV	lnN	1.008917	1.008971	1.009302	1.009773	1.009545	-
+CMS_HLTeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_e_13TeV	lnN	1.015651	1.016908	1.017996	1.017179	1.017105	-
+CMS_IDeff_g_13TeV	lnN	1.014304	1.014109	1.013252	1.013652	1.013829	-
+CMS_IDeff_m_13TeV	lnN	-	-	-	-	-	-
+CMS_JEC_13TeV	lnN	1.000591	1.010417	1.0	1.0	1.0	-
+CMS_JER_13TeV	lnN	1.0	1.002841	1.0	1.0	1.0	-
+CMS_PU_13TeV	lnN	1.013535	1.012335	1.026918	1.004703	1.00761	-
+CMS_R9_13TeV	lnN	-	-	-	-	-	-
+CMS_hzg_PS_13TeV	lnN	1.033788	1.05192	1.033788	1.033788	1.033788	-
+CMS_hzg_UE_13TeV	lnN	1.014258	1.031634	1.014258	1.014258	1.014258	-
+QCDscale_VH	lnN	-	-	-	0.969/1.038	0.993/1.005	-
+QCDscale_ggH	lnN	0.961/1.039	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.908/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.981/1.019	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_eleEM_mean_VBF_cat4	param	0	0.001480
+CMS_hzg_delta_eleEM_mean_WH_cat4	param	0	0.001480
+CMS_hzg_delta_eleEM_sigma_ggF_cat4	param	0	0.068628
+CMS_hzg_delta_eleEM_mean_ggF_cat4	param	0	0.001450
+CMS_hzg_delta_eleEM_mean_ttH_cat4	param	0	0.001480
+CMS_hzg_delta_eleEM_mean_ZH_cat4	param	0	0.001434
+CMS_hzg_delta_eleEM_sigma_ZH_cat4	param	0	0.045546
+CMS_hzg_delta_eleEM_sigma_VBF_cat4	param	0	0.067567
+CMS_hzg_delta_eleEM_sigma_ttH_cat4	param	0	0.067567
+CMS_hzg_delta_eleEM_sigma_WH_cat4	param	0	0.067567
+pdfindex_ele_cat4_13TeV discrete 

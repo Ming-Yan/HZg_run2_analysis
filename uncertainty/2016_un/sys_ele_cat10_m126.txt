@@ -1,0 +1,35 @@
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_hzg_delta_eleEM_mean_ttH_cat10  param  0	0
+CMS_hzg_delta_eleEM_mean_ZH_cat10  param  0	0
+CMS_hzg_delta_eleEM_mean_WH_cat10  param  0	0
+CMS_hzg_delta_eleEM_sigma_ttH_cat10  param  0	0.380202
+CMS_hzg_delta_eleEM_sigma_ZH_cat10  param  0	0.136919
+CMS_hzg_delta_eleEM_sigma_WH_cat10  param  0	0.0540091
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_UE_13TeV      lnN     1 1 1 1 1
+CMS_PS_13TeV      lnN     1 1 1 1 1
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_R9_13TeV      lnN     1.00038 1.00041 0.999664 1.00181 1.00028
+CMS_hzg_delta_eleEM_mean_ttH_cat10  param  0	0.0370769
+CMS_hzg_delta_eleEM_mean_ZH_cat10  param  0	0.022166
+CMS_hzg_delta_eleEM_mean_WH_cat10  param  0	0.0075409
+CMS_hzg_delta_eleEM_sigma_ttH_cat10  param  0	1.13749
+CMS_hzg_delta_eleEM_sigma_ZH_cat10  param  0	0.34709
+CMS_hzg_delta_eleEM_sigma_WH_cat10  param  0	0.123907
+CMS_R9_13TeV      lnN     1.00038 1.00041 0.999664 1.00181 1.00028
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_JEC_13TeV      lnN     1.00727 1.01789 1.00289 1.00325 1.00358
+CMS_JER_13TeV      lnN     0.998727 0.997737 1.00064 1.00012 0.999419
+CMS_R9_13TeV      lnN     1.00038 1.00041 0.999664 1.00181 1.00028
+CMS_hzg_delta_eleEM_mean_ttH_cat10  param  0	0.0370769
+CMS_hzg_delta_eleEM_mean_ZH_cat10  param  0	0.022166
+CMS_hzg_delta_eleEM_mean_WH_cat10  param  0	0.0075409
+CMS_hzg_delta_eleEM_sigma_ttH_cat10  param  0	3.99605
+CMS_hzg_delta_eleEM_sigma_ZH_cat10  param  0	1.23381
+CMS_hzg_delta_eleEM_sigma_WH_cat10  param  0	1.14367

@@ -1,0 +1,3 @@
+CMS_hzg_delta_elelep_mean_ttH_m128_cat6789  param  0	7.8922e-07
+CMS_hzg_delta_elelep_mean_ZH_m128_cat6789  param  0	7.55763e-07
+CMS_hzg_delta_elelep_mean_WH_m128_cat6789  param  0	7.82855e-07

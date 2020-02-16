@@ -1,0 +1,245 @@
+#HZg testing combine
+datacard=VBFMVA_v2_all
+files=WS_VBFMVA_v2_ele_VBF_1_120.root,WS_VBFMVA_v2_ele_ggF_2_124.root,WS_VBFMVA_v2_mu_VBF_3_128.root,WS_VBFMVA_v2_ele_VBF_1_121.root,WS_VBFMVA_v2_ele_ggF_2_125.root,WS_VBFMVA_v2_mu_VBF_3_129.root,WS_VBFMVA_v2_ele_VBF_1_122.root,WS_VBFMVA_v2_ele_ggF_2_126.root,WS_VBFMVA_v2_mu_VBF_3_130.root,WS_VBFMVA_v2_ele_VBF_1_123.root,WS_VBFMVA_v2_ele_ggF_2_127.root,WS_VBFMVA_v2_mu_VBF_4_120.root,WS_VBFMVA_v2_ele_VBF_1_124.root,WS_VBFMVA_v2_ele_ggF_2_128.root,WS_VBFMVA_v2_mu_VBF_4_121.root,WS_VBFMVA_v2_ele_VBF_1_125.root,WS_VBFMVA_v2_ele_ggF_2_129.root,WS_VBFMVA_v2_mu_VBF_4_122.root,WS_VBFMVA_v2_ele_VBF_1_126.root,WS_VBFMVA_v2_ele_ggF_2_130.root,WS_VBFMVA_v2_mu_VBF_4_123.root,WS_VBFMVA_v2_ele_VBF_1_127.root,WS_VBFMVA_v2_ele_ggF_3_120.root,WS_VBFMVA_v2_mu_VBF_4_124.root,WS_VBFMVA_v2_ele_VBF_1_128.root,WS_VBFMVA_v2_ele_ggF_3_121.root,WS_VBFMVA_v2_mu_VBF_4_125.root,WS_VBFMVA_v2_ele_VBF_1_129.root,WS_VBFMVA_v2_ele_ggF_3_122.root,WS_VBFMVA_v2_mu_VBF_4_126.root,WS_VBFMVA_v2_ele_VBF_1_130.root,WS_VBFMVA_v2_ele_ggF_3_123.root,WS_VBFMVA_v2_mu_VBF_4_127.root,WS_VBFMVA_v2_ele_VBF_2_120.root,WS_VBFMVA_v2_ele_ggF_3_124.root,WS_VBFMVA_v2_mu_VBF_4_128.root,WS_VBFMVA_v2_ele_VBF_2_121.root,WS_VBFMVA_v2_ele_ggF_3_125.root,WS_VBFMVA_v2_mu_VBF_4_129.root,WS_VBFMVA_v2_ele_VBF_2_122.root,WS_VBFMVA_v2_ele_ggF_3_126.root,WS_VBFMVA_v2_mu_VBF_4_130.root,WS_VBFMVA_v2_ele_VBF_2_123.root,WS_VBFMVA_v2_ele_ggF_3_127.root,WS_VBFMVA_v2_mu_ggF_1_120.root,WS_VBFMVA_v2_ele_VBF_2_124.root,WS_VBFMVA_v2_ele_ggF_3_128.root,WS_VBFMVA_v2_mu_ggF_1_121.root,WS_VBFMVA_v2_ele_VBF_2_125.root,WS_VBFMVA_v2_ele_ggF_3_129.root,WS_VBFMVA_v2_mu_ggF_1_122.root,WS_VBFMVA_v2_ele_VBF_2_126.root,WS_VBFMVA_v2_ele_ggF_3_130.root,WS_VBFMVA_v2_mu_ggF_1_123.root,WS_VBFMVA_v2_ele_VBF_2_127.root,WS_VBFMVA_v2_ele_ggF_4_120.root,WS_VBFMVA_v2_mu_ggF_1_124.root,WS_VBFMVA_v2_ele_VBF_2_128.root,WS_VBFMVA_v2_ele_ggF_4_121.root,WS_VBFMVA_v2_mu_ggF_1_125.root,WS_VBFMVA_v2_ele_VBF_2_129.root,WS_VBFMVA_v2_ele_ggF_4_122.root,WS_VBFMVA_v2_mu_ggF_1_126.root,WS_VBFMVA_v2_ele_VBF_2_130.root,WS_VBFMVA_v2_ele_ggF_4_123.root,WS_VBFMVA_v2_mu_ggF_1_127.root,WS_VBFMVA_v2_ele_VBF_3_120.root,WS_VBFMVA_v2_ele_ggF_4_124.root,WS_VBFMVA_v2_mu_ggF_1_128.root,WS_VBFMVA_v2_ele_VBF_3_121.root,WS_VBFMVA_v2_ele_ggF_4_125.root,WS_VBFMVA_v2_mu_ggF_1_129.root,WS_VBFMVA_v2_ele_VBF_3_122.root,WS_VBFMVA_v2_ele_ggF_4_126.root,WS_VBFMVA_v2_mu_ggF_1_130.root,WS_VBFMVA_v2_ele_VBF_3_123.root,WS_VBFMVA_v2_ele_ggF_4_127.root,WS_VBFMVA_v2_mu_ggF_2_120.root,WS_VBFMVA_v2_ele_VBF_3_124.root,WS_VBFMVA_v2_ele_ggF_4_128.root,WS_VBFMVA_v2_mu_ggF_2_121.root,WS_VBFMVA_v2_ele_VBF_3_125.root,WS_VBFMVA_v2_ele_ggF_4_129.root,WS_VBFMVA_v2_mu_ggF_2_122.root,WS_VBFMVA_v2_ele_VBF_3_126.root,WS_VBFMVA_v2_ele_ggF_4_130.root,WS_VBFMVA_v2_mu_ggF_2_123.root,WS_VBFMVA_v2_ele_VBF_3_127.root,WS_VBFMVA_v2_mu_VBF_1_120.root,WS_VBFMVA_v2_mu_ggF_2_124.root,WS_VBFMVA_v2_ele_VBF_3_128.root,WS_VBFMVA_v2_mu_VBF_1_121.root,WS_VBFMVA_v2_mu_ggF_2_125.root,WS_VBFMVA_v2_ele_VBF_3_129.root,WS_VBFMVA_v2_mu_VBF_1_122.root,WS_VBFMVA_v2_mu_ggF_2_126.root,WS_VBFMVA_v2_ele_VBF_3_130.root,WS_VBFMVA_v2_mu_VBF_1_123.root,WS_VBFMVA_v2_mu_ggF_2_127.root,WS_VBFMVA_v2_ele_VBF_4_120.root,WS_VBFMVA_v2_mu_VBF_1_124.root,WS_VBFMVA_v2_mu_ggF_2_128.root,WS_VBFMVA_v2_ele_VBF_4_121.root,WS_VBFMVA_v2_mu_VBF_1_125.root,WS_VBFMVA_v2_mu_ggF_2_129.root,WS_VBFMVA_v2_ele_VBF_4_122.root,WS_VBFMVA_v2_mu_VBF_1_126.root,WS_VBFMVA_v2_mu_ggF_2_130.root,WS_VBFMVA_v2_ele_VBF_4_123.root,WS_VBFMVA_v2_mu_VBF_1_127.root,WS_VBFMVA_v2_mu_ggF_3_120.root,WS_VBFMVA_v2_ele_VBF_4_124.root,WS_VBFMVA_v2_mu_VBF_1_128.root,WS_VBFMVA_v2_mu_ggF_3_121.root,WS_VBFMVA_v2_ele_VBF_4_125.root,WS_VBFMVA_v2_mu_VBF_1_129.root,WS_VBFMVA_v2_mu_ggF_3_122.root,WS_VBFMVA_v2_ele_VBF_4_126.root,WS_VBFMVA_v2_mu_VBF_1_130.root,WS_VBFMVA_v2_mu_ggF_3_123.root,WS_VBFMVA_v2_ele_VBF_4_127.root,WS_VBFMVA_v2_mu_VBF_2_120.root,WS_VBFMVA_v2_mu_ggF_3_124.root,WS_VBFMVA_v2_ele_VBF_4_128.root,WS_VBFMVA_v2_mu_VBF_2_121.root,WS_VBFMVA_v2_mu_ggF_3_125.root,WS_VBFMVA_v2_ele_VBF_4_129.root,WS_VBFMVA_v2_mu_VBF_2_122.root,WS_VBFMVA_v2_mu_ggF_3_126.root,WS_VBFMVA_v2_ele_VBF_4_130.root,WS_VBFMVA_v2_mu_VBF_2_123.root,WS_VBFMVA_v2_mu_ggF_3_127.root,WS_VBFMVA_v2_ele_ggF_1_120.root,WS_VBFMVA_v2_mu_VBF_2_124.root,WS_VBFMVA_v2_mu_ggF_3_128.root,WS_VBFMVA_v2_ele_ggF_1_121.root,WS_VBFMVA_v2_mu_VBF_2_125.root,WS_VBFMVA_v2_mu_ggF_3_129.root,WS_VBFMVA_v2_ele_ggF_1_122.root,WS_VBFMVA_v2_mu_VBF_2_126.root,WS_VBFMVA_v2_mu_ggF_3_130.root,WS_VBFMVA_v2_ele_ggF_1_123.root,WS_VBFMVA_v2_mu_VBF_2_127.root,WS_VBFMVA_v2_mu_ggF_4_120.root,WS_VBFMVA_v2_ele_ggF_1_124.root,WS_VBFMVA_v2_mu_VBF_2_128.root,WS_VBFMVA_v2_mu_ggF_4_121.root,WS_VBFMVA_v2_ele_ggF_1_125.root,WS_VBFMVA_v2_mu_VBF_2_129.root,WS_VBFMVA_v2_mu_ggF_4_122.root,WS_VBFMVA_v2_ele_ggF_1_126.root,WS_VBFMVA_v2_mu_VBF_2_130.root,WS_VBFMVA_v2_mu_ggF_4_123.root,WS_VBFMVA_v2_ele_ggF_1_127.root,WS_VBFMVA_v2_mu_VBF_3_120.root,WS_VBFMVA_v2_mu_ggF_4_124.root,WS_VBFMVA_v2_ele_ggF_1_128.root,WS_VBFMVA_v2_mu_VBF_3_121.root,WS_VBFMVA_v2_mu_ggF_4_125.root,WS_VBFMVA_v2_ele_ggF_1_129.root,WS_VBFMVA_v2_mu_VBF_3_122.root,WS_VBFMVA_v2_mu_ggF_4_126.root,WS_VBFMVA_v2_ele_ggF_1_130.root,WS_VBFMVA_v2_mu_VBF_3_123.root,WS_VBFMVA_v2_mu_ggF_4_127.root,WS_VBFMVA_v2_ele_ggF_2_120.root,WS_VBFMVA_v2_mu_VBF_3_124.root,WS_VBFMVA_v2_mu_ggF_4_128.root,WS_VBFMVA_v2_ele_ggF_2_121.root,WS_VBFMVA_v2_mu_VBF_3_125.root,WS_VBFMVA_v2_mu_ggF_4_129.root,WS_VBFMVA_v2_ele_ggF_2_122.root,WS_VBFMVA_v2_mu_VBF_3_126.root,WS_VBFMVA_v2_mu_ggF_4_130.root,WS_VBFMVA_v2_ele_ggF_2_123.root,WS_VBFMVA_v2_mu_VBF_3_127.root,WS_VBFMVA_v2_ele_VBF_501_120.root,WS_VBFMVA_v2_ele_ggF_501_124.root,WS_VBFMVA_v2_mu_VBF_501_128.root,WS_VBFMVA_v2_ele_VBF_501_121.root,WS_VBFMVA_v2_ele_ggF_501_125.root,WS_VBFMVA_v2_mu_VBF_501_129.root,WS_VBFMVA_v2_ele_VBF_501_122.root,WS_VBFMVA_v2_ele_ggF_501_126.root,WS_VBFMVA_v2_mu_VBF_501_130.root,WS_VBFMVA_v2_ele_VBF_501_123.root,WS_VBFMVA_v2_ele_ggF_501_127.root,WS_VBFMVA_v2_mu_ggF_501_120.root,WS_VBFMVA_v2_ele_VBF_501_124.root,WS_VBFMVA_v2_ele_ggF_501_128.root,WS_VBFMVA_v2_mu_ggF_501_121.root,WS_VBFMVA_v2_ele_VBF_501_125.root,WS_VBFMVA_v2_ele_ggF_501_129.root,WS_VBFMVA_v2_mu_ggF_501_122.root,WS_VBFMVA_v2_ele_VBF_501_126.root,WS_VBFMVA_v2_ele_ggF_501_130.root,WS_VBFMVA_v2_mu_ggF_501_123.root,WS_VBFMVA_v2_ele_VBF_501_127.root,WS_VBFMVA_v2_mu_VBF_501_120.root ,WS_VBFMVA_v2_mu_ggF_501_124.root,WS_VBFMVA_v2_ele_VBF_501_128.root,WS_VBFMVA_v2_mu_VBF_501_121.root ,WS_VBFMVA_v2_mu_ggF_501_125.root,WS_VBFMVA_v2_ele_VBF_501_129.root,WS_VBFMVA_v2_mu_VBF_501_122.root ,WS_VBFMVA_v2_mu_ggF_501_126.root,WS_VBFMVA_v2_ele_VBF_501_130.root,WS_VBFMVA_v2_mu_VBF_501_123.root ,WS_VBFMVA_v2_mu_ggF_501_127.root,WS_VBFMVA_v2_ele_ggF_501_120.root,WS_VBFMVA_v2_mu_VBF_501_124.root,WS_VBFMVA_v2_mu_ggF_501_128.root,WS_VBFMVA_v2_ele_ggF_501_121.root,WS_VBFMVA_v2_mu_VBF_501_125.root,WS_VBFMVA_v2_mu_ggF_501_129.root,WS_VBFMVA_v2_ele_ggF_501_122.root,WS_VBFMVA_v2_mu_VBF_501_126.root ,WS_VBFMVA_v2_mu_ggF_501_130.root,WS_VBFMVA_v2_ele_ggF_501_123.root,WS_VBFMVA_v2_mu_VBF_501_127.root,WS_VBFMVA_v2_ele_VBF_502_120.root,WS_VBFMVA_v2_ele_ggF_502_124.root,WS_VBFMVA_v2_mu_VBF_502_128.root,WS_VBFMVA_v2_ele_VBF_502_121.root,WS_VBFMVA_v2_ele_ggF_502_125.root,WS_VBFMVA_v2_mu_VBF_502_129.root,WS_VBFMVA_v2_ele_VBF_502_122.root,WS_VBFMVA_v2_ele_ggF_502_126.root,WS_VBFMVA_v2_mu_VBF_502_130.root,WS_VBFMVA_v2_ele_VBF_502_123.root,WS_VBFMVA_v2_ele_ggF_502_127.root,WS_VBFMVA_v2_mu_ggF_502_120.root,WS_VBFMVA_v2_ele_VBF_502_124.root,WS_VBFMVA_v2_ele_ggF_502_128.root,WS_VBFMVA_v2_mu_ggF_502_121.root,WS_VBFMVA_v2_ele_VBF_502_125.root,WS_VBFMVA_v2_ele_ggF_502_129.root,WS_VBFMVA_v2_mu_ggF_502_122.root,WS_VBFMVA_v2_ele_VBF_502_126.root,WS_VBFMVA_v2_ele_ggF_502_130.root,WS_VBFMVA_v2_mu_ggF_502_123.root,WS_VBFMVA_v2_ele_VBF_502_127.root,WS_VBFMVA_v2_mu_VBF_502_120.root,WS_VBFMVA_v2_mu_ggF_502_124.root,WS_VBFMVA_v2_ele_VBF_502_128.root,WS_VBFMVA_v2_mu_VBF_502_121.root,WS_VBFMVA_v2_mu_ggF_502_125.root,WS_VBFMVA_v2_ele_VBF_502_129.root,WS_VBFMVA_v2_mu_VBF_502_122.root,WS_VBFMVA_v2_mu_ggF_502_126.root,WS_VBFMVA_v2_ele_VBF_502_130.root,WS_VBFMVA_v2_mu_VBF_502_123.root ,WS_VBFMVA_v2_mu_ggF_502_127.root,WS_VBFMVA_v2_ele_ggF_502_120.root,WS_VBFMVA_v2_mu_VBF_502_124.root ,WS_VBFMVA_v2_mu_ggF_502_128.root,WS_VBFMVA_v2_ele_ggF_502_121.root,WS_VBFMVA_v2_mu_VBF_502_125.root ,WS_VBFMVA_v2_mu_ggF_502_129.root,WS_VBFMVA_v2_ele_ggF_502_122.root,WS_VBFMVA_v2_mu_VBF_502_126.root,WS_VBFMVA_v2_mu_ggF_502_130.root,WS_VBFMVA_v2_ele_ggF_502_123.root,WS_VBFMVA_v2_mu_VBF_502_127.root,WS_VBFMVA_v2_ele_mu_WH_6789_120.root,WS_VBFMVA_v2_ele_mu_ZH_6789_126.root,WS_VBFMVA_v2_ele_mu_WH_6789_121.root,WS_VBFMVA_v2_ele_mu_ZH_6789_127.root,WS_VBFMVA_v2_ele_mu_WH_6789_122.root,WS_VBFMVA_v2_ele_mu_ZH_6789_128.root,WS_VBFMVA_v2_ele_mu_WH_6789_123.root,WS_VBFMVA_v2_ele_mu_ZH_6789_129.root,WS_VBFMVA_v2_ele_mu_WH_6789_124.root,WS_VBFMVA_v2_ele_mu_ZH_6789_130.root,WS_VBFMVA_v2_ele_mu_WH_6789_125.root,WS_VBFMVA_v2_ele_mu_ttH_6789_120.root,WS_VBFMVA_v2_ele_mu_WH_6789_126.root,WS_VBFMVA_v2_ele_mu_ttH_6789_121.root,WS_VBFMVA_v2_ele_mu_WH_6789_127.root,WS_VBFMVA_v2_ele_mu_ttH_6789_122.root,WS_VBFMVA_v2_ele_mu_WH_6789_128.root,WS_VBFMVA_v2_ele_mu_ttH_6789_123.root,WS_VBFMVA_v2_ele_mu_WH_6789_129.root,WS_VBFMVA_v2_ele_mu_ttH_6789_124.root,WS_VBFMVA_v2_ele_mu_WH_6789_130.root,WS_VBFMVA_v2_ele_mu_ttH_6789_125.root,WS_VBFMVA_v2_ele_mu_ZH_6789_120.root,WS_VBFMVA_v2_ele_mu_ttH_6789_126.root,WS_VBFMVA_v2_ele_mu_ZH_6789_121.root,WS_VBFMVA_v2_ele_mu_ttH_6789_127.root,WS_VBFMVA_v2_ele_mu_ZH_6789_122.root,WS_VBFMVA_v2_ele_mu_ttH_6789_128.root,WS_VBFMVA_v2_ele_mu_ZH_6789_123.root,WS_VBFMVA_v2_ele_mu_ttH_6789_129.root,WS_VBFMVA_v2_ele_mu_ZH_6789_124.root,WS_VBFMVA_v2_ele_mu_ttH_6789_130.root,bkg_ele_1.root,bkg_ele_2.root,bkg_ele_501.root,bkg_mu_1.root,bkg_mu_4.root,bkg_ele_3.root,bkg_ele_502.root,bkg_mu_2.root,bkg_mu_501.root,bkg_ele_4.root,bkg_ele_mu_6789.root,bkg_mu_3.root,bkg_mu_502.root
+#############################################
+######## MU SCANS ###########################
+#############################################
+##DO NOT RUN UNLESS YOU INTEND TO UNBLIND
+###Fixed MH at 125.09
+#outDir=combineJobs13TeV_HZg/MuScanFixMH													method=MuScan	expected=0 mh=125.09 muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi+--saveWorkspace label=MS_fMH 
+##To get stat + theory + syst breakdown
+#outDir=combineJobs13TeV_HZg/MuScanFixMHBreakdown/MuScanNoTheory    												method=MuScan	expected=0  postFit mh=125.09 muLow=-5 muHigh=5 jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<BR_hzg,QCDscale_ggHQCDscale_qqH,QCDscale_ttH,pdf_Higgs_gg,pdf_Higgs_qqbar,pdf_Higgs_ttH>
+#outDir=combineJobs13TeV_HZg/MuScanFixMHBreakdown/MuScanNoSyst 												method=MuScan	expected=0  postFit mh=125.09 muLow=-5.0 muHigh=5.0 jobs=10 pointsperjob=10 opts=--squareDistPoi+-S0
+#outDir=combineJobs13TeV_HZg/MuScanFixMHBreakdown/MuScanAllSyst 												method=MuScan	expected=0  postFit mh=125.09 muLow=-5.0 muHigh=5.0 jobs=10 pointsperjob=10 opts=--squareDistPoi
+#
+###Profiled MH
+#outDir=combineJobs13TeV_HZg/MuScanProfileMH									 method=MuScanMHProf	expected=0  muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi+--saveWorkspace label=MS_pMH
+##To get stat + theory + syst breakdown
+#outDir=combineJobs13TeV_HZg/MuScanProfMHBreakdown/MuScanNoTheory    												method=MuScanMHProf	expected=0  postFit mh=125.09 muLow=-2. muHigh=5. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<>
+#outDir=combineJobs13TeV_HZg/MuScanProfMHBreakdown/MuScanNoSyst 												method=MuScanMHProf	expected=0  postFit mh=125.09 muLow=-5.0 muHigh=5.0 jobs=10 pointsperjob=10 opts=--squareDistPoi+-S0
+#outDir=combineJobs13TeV_HZg/MuScanProfMHBreakdown/MuScanAllSyst 												method=MuScanMHProf	expected=0  postFit mh=125.09 muLow=-5.0 muHigh=5.0 jobs=10 pointsperjob=10 opts=--squareDistPoi
+###Other options for MH treatment
+#outDir=combineJobs13TeV_HZg/MuScanFixMH125.97													method=MuScan	expected=0 mh=125.97 muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi+--saveWorkspace label=MS_fMH125.97 
+
+##### EXPECTED ########
+
+#outDir=combineJobs13TeV_HZg/ExpMuScan													method=MuScan	expected=1 mh=125 muLow=-10. muHigh=10. jobs=5 pointsperjob=20 opts=--squareDistPoi expectSignal=1
+#outDir=combineJobs13TeV_HZg/ExpMuScanStat													method=MuScanStat	expected=1 mh=125 muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi expectSignal=1
+#outDir=combineJobs13TeV_HZg/ExpMuScanTheo													method=MuScanTheo	expected=1 mh=125 muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi expectSignal=1
+#outDir=combineJobs13TeV_HZg/ExpMuScanJustSmearScale													method=MuScanTheo	expected=1 mh=125 muLow=-2. muHigh=5. jobs=5 pointsperjob=20 opts=--squareDistPoi expectSignal=1 justThisSyst=HighR9EB_13TeVscale,HighR9EE_13TeVscale,LowR9EB_13TeVscale,LowR9EE_13TeVscale,HighR9EBPhi_13TeVsmear,HighR9EBRho_13TeVsmear,HighR9EEPhi_13TeVsmear,HighR9EERho_13TeVsmear,LowR9EBPhi_13TeVsmear,LowR9EBRho_13TeVsmear,LowR9EEPhi_13TeVsmear,LowR9EERho_13TeVsmear
+
+
+#############################################
+######## MU vs MH  1D SCANS ##################
+#############################################
+
+# Mu hat vs MH #DO NOT RUN UNLESS YOU INTEND TO UNBLIND
+#outDir=combineJobs13TeV_HZg/MultiPdfMuHatvsMH											method=MultiPdfMuHatvsMH expected=0  mhLow=120. mhHigh=130.  muLow=-5. muHigh=5. pointsperjob=50 jobs=10  mhStep=0.5
+
+#############################################
+######## RV vs RF 2D SCANS ##################
+#############################################
+# rv vs rf scans #DO NOT RUN UNLESS YOU INTEND TO UNBLIND
+#outDir=combineJobs13TeV_HZg/RVRFScanFixMH											method=RVRFScan expected=0 mh=125.09 rvLow=-3. rvHigh=10 rfLow=-2. rfHigh=3.5 jobs=100 pointsperjob=40 
+#outDir=combineJobs13TeV_HZg/RVRFScanProfileMH											method=RVRFScan expected=0 rvLow=-3. rvHigh=10 rfLow=-2. rfHigh=3.5 jobs=100 pointsperjob=40 profileMH label=rvrf_pMH
+#outDir=combineJobs13TeV_HZg/RVRFScanFixMH125.97											method=RVRFScan expected=0 mh=125.97 rvLow=-3. rvHigh=10 rfLow=-2. rfHigh=3.5 jobs=100 pointsperjob=40 
+#outDir=combineJobs13TeV_HZg/RVRFScanFloatMH											method=RVRFScan expected=0 mh=125.09:0.24 rvLow=-3. rvHigh=10 rfLow=-2. rfHigh=3.5 jobs=100 pointsperjob=40 
+
+# to get the unertainties
+#outDir=combineJobs13TeV_HZg/RVScan													method=RVScan	expected=0 mh=125.09 postFit muLow=-3. muHigh=3. jobs=1 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/RFScan													method=RFScan	expected=0 mh=125.09 postFit muLow=-3. muHigh=3. jobs=1 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/RVScanProfileMH													method=RVScan	expected=0 profileMH muLow=-3. muHigh=3. jobs=1 pointsperjob=10 opts=--squareDistPoi profileMH
+#outDir=combineJobs13TeV_HZg/RFScanProfileMH													method=RFScan	expected=0 profileMH muLow=-3. muHigh=3. jobs=1 pointsperjob=10 opts=--squareDistPoi profileMH
+
+#############################################
+######## KvKF and KgluKpho 2D SCANS #########
+#############################################
+#outDir=combineJobs13TeV_HZg/CVCFScanFixMH											method=CVCFScan expected=0 mh=125.09 cvLow=-1. cvHigh=3 cfLow=-1. cfHigh=4 jobs=100 pointsperjob=40
+#outDir=combineJobs13TeV_HZg/KGluKGamScanFixMH											method=KGluKGamScan expected=0 mh=125.09 kgamLow=-0.5 kgamHigh=2.5 kgluLow=-0.5 kgluHigh=2.5 jobs=100 pointsperjob=40 
+#outDir=combineJobs13TeV_HZg/CVCFScanProfileMH											method=CVCFScan expected=0 mh=125.09 cvLow=-1. cvHigh=3 cfLow=-1. cfHigh=4 jobs=100 pointsperjob=40  profileMH 
+#outDir=combineJobs13TeV_HZg/KGluKGamScanProfileMH											method=KGluKGamScan expected=0 mh=125.09 kgamLow=-0.5 kgamHigh=2.5 kgluLow=-0.5 kgluHigh=2.5 jobs=100 pointsperjob=40  profileMH
+#outDir=combineJobs13TeV_HZg/CVCFScanProfileMH_granular											method=CVCFScan expected=0 mh=125.09 cvLow=-1. cvHigh=3 cfLow=-1. cfHigh=4 jobs=1000 pointsperjob=20  profileMH 
+#outDir=combineJobs13TeV_HZg/KGluKGamScanProfileMH_granular											method=KGluKGamScan expected=0 mh=125.09 kgamLow=-0.5 kgamHigh=2.5 kgluLow=-0.5 kgluHigh=2.5 jobs=1000 pointsperjob=20  profileMH
+
+#############################################
+############### PVAL SCANS ##################
+#############################################
+# exp pval ##EXPECTED#
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/All 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1. jobs=11 
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihoodStat/All 		method=ProfileLikelihoodStat expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1. jobs=11 
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihoodTheo/All 		method=ProfileLikelihoodTheo expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1. jobs=11 
+
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/Untagged 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat1,ele_cat2,ele_cat3,ele_cat4
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/VBF 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat501,ele_cat502
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/TTH 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=TTHLeptonicTag_13TeV,ele_mu_cat6789
+
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat1 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat1
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat1 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat1
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat2 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat2
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat2 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat2
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat3 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat3
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat3 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat3
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat4 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat4
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat4 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat4
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat501 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat501
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat501 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat501
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_cat502 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_cat502
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/mu_cat502 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=mu_cat502
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood/ele_mu_cat6789 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. mhHigh=130. mhStep=1.0 jobs=11 splitChannels=ele_mu_cat6789
+
+
+# exp pval @ 125  ##EXPCTED AT 125###
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09 			method=ProfileLikelihood expected=1 expectSignal=1 expectSignalMass=125.09 mhLow=120. mhHigh=130. mhStep=0.1 jobs=101
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09Stat 			method=ProfileLikelihoodStat expected=1 expectSignal=1 expectSignalMass=125.09 mhLow=120. mhHigh=130. mhStep=1. jobs=11
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09Theo 			method=ProfileLikelihoodTheo expected=1 expectSignal=1 expectSignalMass=125.09 mhLow=120. mhHigh=130. mhStep=1. jobs=11
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09/Untagged 		method=ProfileLikelihood expected=1 expectSignal=1 expectSignalMass=125.09 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat1,ele_cat2,ele_cat3,ele_cat4
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09/VBF 		method=ProfileLikelihood expected=1 expectSignal=1 expectSignalMass=125.09 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat501,ele_cat502
+#outDir=combineJobs13TeV_HZg/ExpProfileLikelihood_m125.09/TTH 		method=ProfileLikelihood expected=1 expectSignal=1 mhLow=120. expectSignalMass=125.09 mhHigh=130. mhStep=0.5 jobs=21 splitChannels=TTHLeptonicTag_13TeV,ele_mu_cat6789
+
+##### OBSERVED #####
+# obs pval #DO NOT RUN UNLESS YOU INTEND TO UNBLIND
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/All 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/Untagged 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat1,ele_cat2,ele_cat3,ele_cat4
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/VBF 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat501,ele_cat502
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/TTH 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=0.1 jobs=21 splitChannels=TTHLeptonicTag_13TeV,ele_mu_cat6789
+
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat1 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat1
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat1 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat1
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat2 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat2
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat2 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat2
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat3 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat3
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat3 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat3
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat4 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat4
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat4 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat4
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat501 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat501
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat501 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat501
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_cat502 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_cat502
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/mu_cat502 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=mu_cat502
+#outDir=combineJobs13TeV_HZg/ProfileLikelihood/ele_mu_cat6789 		method=ProfileLikelihood expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11 splitChannels=ele_mu_cat6789
+
+
+
+
+
+
+#############################################
+######## MU vs MH 2D SCANS ##################
+#############################################
+#
+## 2d mu vs MH scan
+#outDir=combineJobs13TeV_HZg/MuMHScan												method=MuMHScan	expected=0 muLow=-2. muHigh=5. mhLow=122. mhHigh=128.	jobs=20 pointsperjob=200
+#
+#############################################
+############## S/S+B PLOTS ##################
+#############################################
+##used for weighted S/S+Bplot
+#outDir=combineJobs13TeV_HZg/MuScan_PostFit_125.09													method=MuScan	expected=0 mh=125.09 postFit muLow=-3. muHigh=3. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MuScan_PostFit_125.97													method=MuScan	expected=0 mh=125.97 postFit muLow=-3. muHigh=3. jobs=1 pointsperjob=1 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MuScan_PostFit_125.09pm0.24													method=MuScan	expected=0 mh=125.09:0.24 postFit muLow=-3. muHigh=3. jobs=1 pointsperjob=1 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MuScan_PostFit_ProfileMH	method=MuScanMHProf	expected=0 mh=120.01 postFit muLow=-3. muHigh=3. jobs=1 pointsperjob=1 opts=--squareDistPoi
+#
+
+#############################################
+############## MH 1D SCAN  ##################
+#############################################
+#Quick MH scan #DO NOT RUN UNLESS YOU INTEND TO UNBLIND
+##outDir=combineJobs13TeV_HZg/MHScan    												method=MHScan	expected=0 mh=130 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MHScanAllSyst    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MHScanNoSmearScales    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<CMS_hgg_nuisance_HighR9EBPhi_13TeVsmear,CMS_hgg_nuisance_HighR9EBRho_13TeVsmear,CMS_hgg_nuisance_HighR9EEPhi_13TeVsmear,CMS_hgg_nuisance_HighR9EERho_13TeVsmear,CMS_hgg_nuisance_LowR9EBPhi_13TeVsmear,CMS_hgg_nuisance_LowR9EBRho_13TeVsmear,CMS_hgg_nuisance_LowR9EEPhi_13TeVsmear,CMS_hgg_nuisance_LowR9EERho_13TeVsmear,CMS_hgg_nuisance_HighR9EB_13TeVscale,CMS_hgg_nuisance_HighR9EE_13TeVscale,CMS_hgg_nuisance_LowR9EB_13TeVscale,CMS_hgg_nuisance_LowR9EE_13TeVscale>
+#outDir=combineJobs13TeV_HZg/MHScanNoGeant4    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<CMS_hgg_nuisance_Geant4_13TeVscale>
+#outDir=combineJobs13TeV_HZg/MHScanNoMaterial    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<CMS_hgg_nuisance_MaterialCentral_scale,CMS_hgg_nuisance_MaterialForward_scale>
+#outDir=combineJobs13TeV_HZg/MHScanNoFNUF   												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<CMS_hgg_nuisance_FNUFEE_scale,CMS_hgg_nuisance_FNUFEB_scale>
+#outDir=combineJobs13TeV_HZg/MHScanNoShowerShape    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<CMS_hgg_nuisance_ShowerShapeHighR9EE_scale,CMS_hgg_nuisance_ShowerShapeHighR9EB_scale,CMS_hgg_nuisance_ShowerShapeLowR9EE_scale,CMS_hgg_nuisance_ShowerShapeLowR9EB_scale>
+#outDir=combineJobs13TeV_HZg/MHScanNoSyst    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+-S0
+#outDir=combineJobs13TeV_HZg/MHScanNoTheory    												method=MHScan	expected=0  postFit mh=125.09 mhLow=120. mhHigh=130. jobs=10 pointsperjob=10 opts=--squareDistPoi+--freezeNuisances<>
+#expect mh and MH scans
+#outDir=combineJobs13TeV_HZg/ExpMHScan    												method=MHScan	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/ExpMHScanStat    												method=MHScanStat	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/ExpMHScanTheo    												method=MHScanTheo	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/ExpMHScanJustShowerShape    												method=MHScanJustThisSyst	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi justThisSyst=ShowerShape
+#outDir=combineJobs13TeV_HZg/MHScanStat    												method=MHScanStat	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MHScan    												method=MHScan	expected=1 expectSignal=1 mh=125  mhLow=123. mhHigh=128. jobs=5 pointsperjob=10 opts=--squareDistPoi
+
+##############################################
+###PER PROCESS MULTIPDF CH COMPATIBLITY#######
+##############################################
+###Float MH Gauss Constrained
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibility/v2_ggH												method=PerProcessChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ggH
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibility/v2_qqH												method=PerProcessChannelCompatibility mh=125.09:0.24  jobs=5 pointsperjob=10  perProcessChannelCompatibilityPOI=r_qqH
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibility/v2_ttH												method=PerProcessChannelCompatibility mh=125.09:0.24   jobs=5 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ttH
+###ProfileMH
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityProfileMH/r_ggH												method=PerProcessChannelCompatibility profileMH jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ggH label=PerProcProfMH label=PPCC_pMH_ggH opts=--saveWorkspace 
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityProfileMH/r_qqH												method=PerProcessChannelCompatibility profileMH  jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_qqH label=PerProcProfMH label=PPCC_pMH_qqH opts=--saveWorkspace 
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityProfileMH/r_ttH												method=PerProcessChannelCompatibility profileMH  jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ttH label=PerProcProfMH label=PPCC_pMH_ttH opts=--saveWorkspace 
+
+#
+### Fix MH 125.09
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH/r_ggH												method=PerProcessChannelCompatibility mh=125.09 jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ggH  label=PPCC_fMH_ggH opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH/r_qqH												method=PerProcessChannelCompatibility mh=125.09  jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_qqH  label=PPCC_fMH_qqH opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH/r_ttH												method=PerProcessChannelCompatibility mh=125.09   jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ttH label=PPCC_fMH_ttH opts=--saveWorkspace
+
+### Fix MH 125.97
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH125.97/r_ggH												method=PerProcessChannelCompatibility mh=125.97 jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ggH  label=PPCC_fMH_ggH_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH125.97/r_qqH												method=PerProcessChannelCompatibility mh=125.97  jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_qqH  label=PPCC_fMH_qqH_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerProcessChannelCompatibilityFixMH125.97/r_ttH												method=PerProcessChannelCompatibility mh=125.97   jobs=20 pointsperjob=10  perProcessChannelCompatibilityPOI=r_ttH label=PPCC_fMH_ttH_125.97 opts=--saveWorkspace
+
+##############################################
+######PER TAG  MULTIPDF CH COMPATIBLITY#######
+##############################################
+#PER TAG MULTIPDF CH COMPATIBLITY
+######## Fix MH 125.09
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat1										method=PerTagChannelCompatibility mh=125 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat1 label=PTCC_fMH_U0 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat1										method=PerTagChannelCompatibility mh=125 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat1 label=PTCC_fMH_U0 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat2										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat2 label=PTCC_fMH_U1 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat2										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat2 label=PTCC_fMH_U1 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat3										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat3 label=PTCC_fMH_U2 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat3										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat3 label=PTCC_fMH_U2 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat4										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat4 label=PTCC_fMH_U3 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat4										method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat4 label=PTCC_fMH_U3 opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat501												method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat501 label=PTCC_fMH_V0 opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat501												method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat501 label=PTCC_fMH_V0 opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_cat502												method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat502 label=PTCC_fMH_V1 opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_mu_cat502												method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_mu_cat502 label=PTCC_fMH_V1 opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_TTHLeptonicTag_13TeV									method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_TTHLeptonicTag_13TeV label=PTCC_fMH_TL opts=--saveWorkspace
+outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH/r_ele_mu_cat6789									method=PerTagChannelCompatibility mh=125.09 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_mu_cat6789 label=PTCC_fMH_TH opts=--saveWorkspace
+######## Fix MH 125.97
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat1										method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat1 label=PTCC_fMH_U0_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat2										method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat2 label=PTCC_fMH_U1_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat3										method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat3 label=PTCC_fMH_U2_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat4										method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat4 label=PTCC_fMH_U3_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat501												method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat501 label=PTCC_fMH_V0_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_cat502												method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_cat502 label=PTCC_fMH_V1_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_TTHLeptonicTag_13TeV									method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_TTHLeptonicTag_13TeV label=PTCC_fMH_TL_125.97 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFixMH125.97/r_ele_mu_cat6789									method=PerTagChannelCompatibility mh=125.97 jobs=2 pointsperjob=2  perTagChannelCompatibilityPOI=r_ele_mu_cat6789 label=PTCC_fMH_TH_125.97 opts=--saveWorkspace
+#PER TAG MULTIPDF CH COMPATIBLITY
+######## Profile MH
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat1									method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat1 label=PTCC_pMH_U0 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat2									method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat2 label=PTCC_pMH_U1 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat3									method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat3 label=PTCC_pMH_U2 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat4									method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat4 label=PTCC_pMH_U3 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat501											method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat501 label=PTCC_pMH_V0 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_cat502											method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat502 label=PTCC_pMH_V1 opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_TTHLeptonicTag_13TeV								method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_TTHLeptonicTag_13TeV label=PTCC_pMH_TL opts=--saveWorkspace
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityProfileMH/r_ele_mu_cat6789								method=PerTagChannelCompatibility profileMH jobs=20 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_mu_cat6789 label=PTCC_pMH_TH opts=--saveWorkspace
+#PER TAG MULTIPDF CH COMPATIBLITY
+#### Gaussian Constraint on MH
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat1	method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat1
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat2												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat2
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat3												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat3
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat4												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat4
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat501												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat501
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_cat502												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_cat502
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_TTHLeptonicTag_13TeV												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_TTHLeptonicTag_13TeV
+#outDir=combineJobs13TeV_HZg/PerTagChannelCompatibilityFloatMH/v0_ele_mu_cat6789												method=PerTagChannelCompatibility mh=125.09:0.24 jobs=5 pointsperjob=10  perTagChannelCompatibilityPOI=r_ele_mu_cat6789
+
+#######other plots which might be needed:
+# limit
+#outDir=combineJobs13TeV_HZg/Asymptotic											method=Asymptotic expected=0 mhLow=120. mhHigh=130. mhStep=1. jobs=11
+##outDir=combineJobs13TeV_HZg/MHScan    												method=MHScan	expected=1 expectSignal=1 mh=130 postFit mhLow=120. mhHigh=130. jobs=5 pointsperjob=10 opts=--squareDistPoi
+##outDir=combineJobs13TeV_HZg/MHScan													method=MHScan	expected=1 expectSignal=1 mh=130 postFit mhLow=120. mhHigh=130. jobs=5 pointsperjob=10 opts=--squareDistPoi freezeNuisances=JetVeto_migration0,JetVeto_migration1,pdfindex_ele_cat1,pdfindex_ele_cat2,pdfindex_ele_cat3,pdfindex_ele_cat4,pdfindex_ele_cat501,pdfindex_ele_cat502 ## attempt to freeze pdfIndices
+#outDir=combineJobs13TeV_HZg/RVScan													method=RVScan expected=0 mh=125 rvLow=-2. rvHigh=3. jobs=5 pointsperjob=10 opts=--squareDistPoi
+#outDir=combineJobs13TeV_HZg/MuScan													method=MuScan	expected=0 mh=125 muLow=-4. muHigh=6. jobs=21
+#outDir=combineJobs13TeV_HZg/MHScan													method=MHScan expected=0 mhLow=122 mhHigh=128 jobs=9 
+#outDir=combineJobs13TeV_HZg/RVRFScan												method=RVRFScan expected=0 rvLow=-5. rvHigh=5. rfLow=-5. rfHigh=5. jobs=100
+#outDir=combineJobs13TeV_HZg/MuMHScan												method=MuMHScan	expected=0 muLow=-4. muHigh=6. mhLow=122 mhHigh=128 jobs=100
+#outDir=combineJobs13TeV_HZg/WeighedS_SB									 method=MuScan	expected=0 mh=125.09:0.24 muLow=-2. muHigh=5. jobs=1 pointsperjob=1 opts=--saveWorkspace

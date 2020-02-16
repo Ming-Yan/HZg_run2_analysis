@@ -1,0 +1,8 @@
+{
+    "hzg_eeg_mmg_cat6789_13TeV": {
+        "yAxisMax": 250,
+        "Name": "lala",
+	"label": "H#rightarrowZ#gamma#rightarrowll#gamma, Lepton tag", 
+	"cmslumi": {"iPeriod": 4, "iPos": 11}       
+    }
+} 

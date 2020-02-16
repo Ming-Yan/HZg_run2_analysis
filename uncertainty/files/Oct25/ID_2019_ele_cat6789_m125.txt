@@ -1,0 +1,5 @@
+CMS_PU_13TeV       lnN     -nan  -nan  -nan  -nan   -nan
+CMS_HLTeff_e_13TeV2019       lnN     nan  nan  nan  nan   nan
+CMS_IDeff_g_13TeV       lnN     -nan  -nan  -nan  -nan   -nan
+CMS_Vetoeff_g_13TeV2019       lnN     -nan  -nan  -nan  -nan   -nan
+CMS_IDeff_e_13TeV       lnN     nan  nan  nan  nan  nan

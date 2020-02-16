@@ -1,0 +1,2 @@
+CMS_hzg_delta_elelep_sigma_ggF_m123_cat3  param  0	6.37044e-07
+CMS_hzg_delta_elelep_sigma_VBF_m123_cat3  param  0	2.98516e-07

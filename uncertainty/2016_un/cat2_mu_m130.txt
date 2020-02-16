@@ -1,0 +1,38 @@
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.02207	1.023138	1.021968	1.021128	1.021348	-
+CMS_IDeff_m_13TeV	lnN	1.004025	1.004274	1.003921	1.004227	1.004265	-
+CMS_JEC_13TeV	lnN	1.00049	1.003916	1.0	1.0	1.0	-
+CMS_JER_13TeV	lnN	1.000245	1.003916	1.0	1.0	1.0	-
+CMS_PU_13TeV	lnN	1.003702	1.001519	1.036204	1.015198	1.006853	-
+CMS_R9_13TeV	lnN	1.086014	1.090206	1.090909	1.090909	1.090909	-
+CMS_hzg_PS_13TeV	lnN	1.043244	1.032181	1.043244	1.043244	1.043244	-
+CMS_hzg_UE_13TeV	lnN	1.008036	1.017416	1.008036	1.008036	1.008036	-
+QCDscale_VH	lnN	-	-	-	0.968/1.039	0.993/1.004	-
+QCDscale_ggH	lnN	0.962/1.038	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_muonRochor_mean_ggF_cat2	param	0	0.000391
+CMS_hzg_delta_muonRochor_sigma_ttH_cat2	param	0	0.053268
+CMS_hzg_delta_eleEM_mean_VBF_cat2	param	0	0.001545
+CMS_hzg_delta_muonRochor_sigma_ZH_cat2	param	0	0.054952
+CMS_hzg_delta_eleEM_mean_ggF_cat2	param	0	0.001485
+CMS_hzg_delta_muonRochor_mean_WH_cat2	param	0	0.000444
+CMS_hzg_delta_eleEM_sigma_VBF_cat2	param	0	0.115275
+CMS_hzg_delta_muonRochor_mean_ttH_cat2	param	0	0.000444
+CMS_hzg_delta_eleEM_sigma_ggF_cat2	param	0	0.030191
+CMS_hzg_delta_muonRochor_sigma_WH_cat2	param	0	0.053268
+CMS_hzg_delta_eleEM_mean_ttH_cat2	param	0	0.001545
+CMS_hzg_delta_muonRochor_sigma_VBF_cat2	param	0	0.053268
+CMS_hzg_delta_muonRochor_mean_VBF_cat2	param	0	0.000444
+CMS_hzg_delta_muonRochor_mean_ZH_cat2	param	0	0.000441
+CMS_hzg_delta_eleEM_sigma_ZH_cat2	param	0	0.024342
+CMS_hzg_delta_eleEM_mean_ZH_cat2	param	0	0.001481
+CMS_hzg_delta_muonRochor_sigma_ggF_cat2	param	0	0.043658
+CMS_hzg_delta_eleEM_sigma_WH_cat2	param	0	0.115275
+CMS_hzg_delta_eleEM_sigma_ttH_cat2	param	0	0.115275
+CMS_hzg_delta_eleEM_mean_WH_cat2	param	0	0.001545

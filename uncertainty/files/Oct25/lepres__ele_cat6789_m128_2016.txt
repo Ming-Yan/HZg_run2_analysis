@@ -1,0 +1,3 @@
+CMS_hzg_delta_elelep_sigma_ttH_m128_cat6789  param  0	8.11064e-08
+CMS_hzg_delta_elelep_sigma_ZH_m128_cat6789  param  0	8.97709e-08
+CMS_hzg_delta_elelep_sigma_WH_m128_cat6789  param  0	7.68769e-08

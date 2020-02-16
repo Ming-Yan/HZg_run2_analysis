@@ -1,0 +1,3 @@
+CMS_hzg_delta_mulep_sigma_ttH_m120_cat6789  param  0	7.34903e-07
+CMS_hzg_delta_mulep_sigma_ZH_m120_cat6789  param  0	8.63858e-07
+CMS_hzg_delta_mulep_sigma_WH_m120_cat6789  param  0	6.87468e-07

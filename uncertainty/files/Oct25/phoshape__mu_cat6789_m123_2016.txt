@@ -1,0 +1,6 @@
+CMS_hzg_delta_muPho_mean_ttH_cat6789  param  1	1.0061
+CMS_hzg_delta_muPho_mean_ZH_cat6789  param  1	1.00527
+CMS_hzg_delta_muPho_mean_WH_cat6789  param  1	1.0075
+CMS_hzg_delta_muPho_sigma_ttH_cat6789  param  1	1.15784
+CMS_hzg_delta_muPho_sigma_ZH_cat6789  param  1	1.15347
+CMS_hzg_delta_muPho_sigma_WH_cat6789  param  1	1.14644

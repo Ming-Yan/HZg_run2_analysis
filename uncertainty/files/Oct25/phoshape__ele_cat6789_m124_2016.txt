@@ -1,0 +1,6 @@
+CMS_hzg_delta_elePho_mean_ttH_cat6789  param  1	1.00724
+CMS_hzg_delta_elePho_mean_ZH_cat6789  param  1	1.00538
+CMS_hzg_delta_elePho_mean_WH_cat6789  param  1	1.00972
+CMS_hzg_delta_elePho_sigma_ttH_cat6789  param  1	1.15242
+CMS_hzg_delta_elePho_sigma_ZH_cat6789  param  1	1.16998
+CMS_hzg_delta_elePho_sigma_WH_cat6789  param  1	1.14197

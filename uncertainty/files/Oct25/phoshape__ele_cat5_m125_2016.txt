@@ -1,0 +1,4 @@
+CMS_hzg_delta_elePho_mean_ggF_cat5  param  1	1.00051
+CMS_hzg_delta_elePho_sigma_ggF_cat5  param  1	1.05394
+CMS_hzg_delta_elePho_mean_VBF_cat5  param  1	1.00114
+CMS_hzg_delta_elePho_sigma_VBF_cat5  param  1	1.05377

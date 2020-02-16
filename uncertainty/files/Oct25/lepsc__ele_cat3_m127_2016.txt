@@ -1,0 +1,2 @@
+CMS_hzg_delta_elelep_mean_ggF_m127_cat3  param  0	7.83479e-07
+CMS_hzg_delta_elelep_mean_VBF_m127_cat3  param  0	7.83435e-07

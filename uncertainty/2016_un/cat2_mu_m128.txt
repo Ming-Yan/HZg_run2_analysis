@@ -1,0 +1,36 @@
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.023307	1.024183	1.022725	1.021822	1.023041	-
+CMS_IDeff_m_13TeV	lnN	1.003952	1.004157	1.004046	1.004359	1.004211	-
+CMS_JEC_13TeV	lnN	1.000699	1.006452	1.00043	1.00043	1.00043	-
+CMS_PU_13TeV	lnN	1.002925	1.001142	1.02503	1.010711	1.00826	-
+CMS_hzg_PS_13TeV	lnN	1.043244	1.032181	1.043244	1.043244	1.043244	-
+CMS_hzg_UE_13TeV	lnN	1.008036	1.017416	1.008036	1.008036	1.008036	-
+QCDscale_VH	lnN	-	-	-	0.969/1.039	0.993/1.005	-
+QCDscale_ggH	lnN	0.962/1.038	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.908/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_eleEM_sigma_WH_cat2	param	0	0.104973
+CMS_hzg_delta_eleEM_sigma_ZH_cat2	param	0	0.024039
+CMS_hzg_delta_eleEM_sigma_ggF_cat2	param	0	0.028168
+CMS_hzg_delta_muonRochor_mean_VBF_cat2	param	0	0.000412
+CMS_hzg_delta_muonRochor_sigma_ttH_cat2	param	0	0.061184
+CMS_hzg_delta_muonRochor_sigma_ggF_cat2	param	0	0.042792
+CMS_hzg_delta_muonRochor_mean_WH_cat2	param	0	0.000412
+CMS_hzg_delta_muonRochor_mean_ttH_cat2	param	0	0.000412
+CMS_hzg_delta_muonRochor_sigma_VBF_cat2	param	0	0.061184
+CMS_hzg_delta_eleEM_mean_VBF_cat2	param	0	0.001610
+CMS_hzg_delta_muonRochor_mean_ggF_cat2	param	0	0.000400
+CMS_hzg_delta_eleEM_mean_WH_cat2	param	0	0.001610
+CMS_hzg_delta_muonRochor_mean_ZH_cat2	param	0	0.000444
+CMS_hzg_delta_eleEM_sigma_ttH_cat2	param	0	0.104973
+CMS_hzg_delta_eleEM_sigma_VBF_cat2	param	0	0.104973
+CMS_hzg_delta_eleEM_mean_ggF_cat2	param	0	0.001540
+CMS_hzg_delta_eleEM_mean_ZH_cat2	param	0	0.001540
+CMS_hzg_delta_muonRochor_sigma_WH_cat2	param	0	0.061184
+CMS_hzg_delta_eleEM_mean_ttH_cat2	param	0	0.001610
+CMS_hzg_delta_muonRochor_sigma_ZH_cat2	param	0	0.046615

@@ -1,0 +1,7 @@
+QCDscale_VH   	lnN	-	-	-	1.034/0.97	1.005/0.994	-
+QCDscale_ggH	lnN	1.047/0.931	-	-	-	-	-
+QCDscale_qqH	lnN	-	1.004/0.997	-	-	-	-
+QCDscale_ttH	lnN	-	-	1.059/0.907	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-

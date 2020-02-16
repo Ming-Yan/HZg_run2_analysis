@@ -1,0 +1,2 @@
+CMS_hzg_delta_mulep_mean_ggF_m121_cat502  param  0	8.07532e-07
+CMS_hzg_delta_mulep_mean_VBF_m121_cat502  param  0	8.04752e-07

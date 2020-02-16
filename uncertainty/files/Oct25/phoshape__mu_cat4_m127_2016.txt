@@ -1,0 +1,4 @@
+CMS_hzg_delta_muPho_mean_ggF_cat4  param  1	1.00088
+CMS_hzg_delta_muPho_mean_VBF_cat4  param  1	1.00068
+CMS_hzg_delta_muPho_sigma_ggF_cat4  param  1	1.05982
+CMS_hzg_delta_muPho_sigma_VBF_cat4  param  1	1.03652

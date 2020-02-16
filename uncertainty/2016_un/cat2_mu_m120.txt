@@ -1,0 +1,38 @@
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.029994	1.029671	1.032625	1.027719	1.029433	-
+CMS_IDeff_m_13TeV	lnN	1.003783	1.003835	1.003712	1.005238	1.003682	-
+CMS_JEC_13TeV	lnN	1.000532	1.004178	1.0	1.0	1.0	-
+CMS_JER_13TeV	lnN	1.000532	1.001393	1.0	1.0	1.0	-
+CMS_PU_13TeV	lnN	1.003751	1.003348	1.01549	1.02651	1.00403	-
+CMS_R9_13TeV	lnN	1.07624	1.071429	1.089404	1.089404	1.089404	-
+CMS_hzg_PS_13TeV	lnN	1.043244	1.032181	1.043244	1.043244	1.043244	-
+CMS_hzg_UE_13TeV	lnN	1.008036	1.017416	1.008036	1.008036	1.008036	-
+QCDscale_VH	lnN	-	-	-	0.970/1.034	0.994/1.005	-
+QCDscale_ggH	lnN	0.960/1.040	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.059	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_muonRochor_sigma_ttH_cat2	param	0	0.045055
+CMS_hzg_delta_muonRochor_mean_ggF_cat2	param	0	0.000416
+CMS_hzg_delta_eleEM_mean_WH_cat2	param	0	0.001659
+CMS_hzg_delta_muonRochor_sigma_ZH_cat2	param	0	0.042500
+CMS_hzg_delta_eleEM_sigma_VBF_cat2	param	0	0.142523
+CMS_hzg_delta_eleEM_sigma_ZH_cat2	param	0	0.021772
+CMS_hzg_delta_eleEM_sigma_ggF_cat2	param	0	0.025285
+CMS_hzg_delta_eleEM_sigma_WH_cat2	param	0	0.142523
+CMS_hzg_delta_muonRochor_sigma_VBF_cat2	param	0	0.045055
+CMS_hzg_delta_muonRochor_sigma_WH_cat2	param	0	0.045055
+CMS_hzg_delta_muonRochor_mean_ZH_cat2	param	0	0.000456
+CMS_hzg_delta_eleEM_mean_ZH_cat2	param	0	0.001601
+CMS_hzg_delta_eleEM_mean_VBF_cat2	param	0	0.001659
+CMS_hzg_delta_muonRochor_mean_ttH_cat2	param	0	0.000412
+CMS_hzg_delta_eleEM_sigma_ttH_cat2	param	0	0.142523
+CMS_hzg_delta_muonRochor_mean_WH_cat2	param	0	0.000412
+CMS_hzg_delta_muonRochor_sigma_ggF_cat2	param	0	0.048820
+CMS_hzg_delta_eleEM_mean_ggF_cat2	param	0	0.001728
+CMS_hzg_delta_muonRochor_mean_VBF_cat2	param	0	0.000412
+CMS_hzg_delta_eleEM_mean_ttH_cat2	param	0	0.001659

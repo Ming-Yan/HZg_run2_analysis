@@ -1,0 +1,32 @@
+imax 1   number of channels
+jmax *   number of process minus 1
+kmax *   number of nuisance parameters (sources of systematic uncertainty)
+--------------------------------------------------------------------------
+shapes bgr        cat3  ../../PDFs/VBFMVA_phores_comb/bkg_VBFMVA_phores_WS_mu_cat3_2016.root w:BkgPdf_2016_mu_cat3
+shapes data_obs   cat3    ../../PDFs/VBFMVA_phores_comb/bkg_VBFMVA_phores_WS_mu_cat3_2016.root w:data_obs_mu_cat3
+shapes ggH_hzg        cat3    ../../PDFs/VBFMVA_phores_comb/WS_VBFMVA_phores_mu_ggF_3_123.root :newPdf_mu_ggF_cat3
+shapes qqH_hzg        cat3    ../../PDFs/VBFMVA_phores_comb/WS_VBFMVA_phores_mu_VBF_3_123.root :newPdf_mu_VBF_cat3
+shapes ttH_hzg        cat3    ../../PDFs/VBFMVA_phores_comb/WS_VBFMVA_phores_mu_ggF_3_123.root :newPdf_mu_ggF_cat3
+shapes ZH_hzg        cat3     ../../PDFs/VBFMVA_phores_comb/WS_VBFMVA_phores_mu_ggF_3_123.root :newPdf_mu_ggF_cat3
+shapes WH_hzg        cat3    ../../PDFs/VBFMVA_phores_comb/WS_VBFMVA_phores_mu_ggF_3_123.root :newPdf_mu_ggF_cat3
+--------------------------------------------------------------------------
+bin               cat3
+observation       -1
+--------------------------------------------------------------------------
+bin               cat3         cat3        cat3        cat3        cat3  cat3
+process           ggH_hzg          qqH_hzg         ttH_hzg         ZH_hzg          WH_hzg     bgr 
+process           -4           -3          -2          -1          0      1   
+rate           2.195622          0.063197          0.008950          0.040094       0.033859          1.000000
+--------------------------------------------------------------------------
+lumi_13TeV  lnN        1.062         1.062         1.062         1.062         1.062         -
+pdf_ggH     lnN        0.968/1.032   -             -             -             -             -
+pdf_ttH     lnN        -             -             0.964/1.036   -             -             -
+pdf_Higgs_qqbar lnN    -             0.979/1.021   -             0.984/1.016   0.981/1.019   -
+QCDscale_ggH     lnN   0.9330/1.046  -             -             -             -             -
+QCDscale_qqH     lnN   -             0.9970/1.004  -             -             -             -
+QCDscale_VH      lnN   -             -             -             0.9690/1.038  0.9930/1.005  -
+QCDscale_ttH     lnN   -             -             0.9080/1.058  -             -             -
+br_Higgs    lnN        0.9429/1.0571 0.9429/1.0571 0.9429/1.0571 0.9429/1.0571 0.9429/1.0571 -
+BkgPdf_2016_p1_mu_cat3 flatParam 
+BkgPdf_2016_p2_mu_cat3 flatParam 
+BkgPdf_2016_p3_mu_cat3 flatParam 

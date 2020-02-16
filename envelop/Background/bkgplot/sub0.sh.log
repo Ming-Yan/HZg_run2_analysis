@@ -1,0 +1,51 @@
+Sender: LSF System <lsfadmin@p06109780f61415.cern.ch>
+Subject: Job 214239815: </afs/cern.ch/user/m/milee/CMSSW_7_4_7/src/flashggFinalFit/Background/bkgplot/sub0.sh> in cluster <batch> Done
+
+Job </afs/cern.ch/user/m/milee/CMSSW_7_4_7/src/flashggFinalFit/Background/bkgplot/sub0.sh> was submitted from host <lxplus034.cern.ch> by user <milee> in cluster <batch>.
+Job was executed on host(s) <p06109780f61415.cern.ch>, in queue <1nh>, as user <milee> in cluster <batch>.
+</afs/cern.ch/user/m/milee> was used as the home directory.
+</afs/cern.ch/user/m/milee/CMSSW_7_4_7/src/flashggFinalFit/Background> was used as the working directory.
+Started at Mon Jan 28 02:36:44 2019
+Results reported on Mon Jan 28 02:37:05 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/afs/cern.ch/user/m/milee/CMSSW_7_4_7/src/flashggFinalFit/Background/bkgplot/sub0.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.02 sec.
+    Max Memory :                                 6.14 MB
+    Average Memory :                             6.14 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   42 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   19 sec.
+    Turnaround time :                            83 sec.
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/milee/214239815> on <p06109780f61415.cern.ch>
+
+Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
+Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
+Warning in <TClassTable::Add>: class PdfModelBuilder already in TClassTable
+Warning in <TClassTable::Add>: class ProfileMultiplePdfs already in TClassTable
+Warning in <TClassTable::Add>: class RooExponentialSum already in TClassTable
+Warning in <TClassTable::Add>: class RooPowerLawSum already in TClassTable
+Warning in <TClassTable::Add>: class WSTFileWrapper already in TClassTable
+[ERROR] Can't find multipdfs (CMS_hzg__ele_mu_cat6789_13TeV_bkgshape) 
+
+Job finished at Mon Jan 28 02:37:03 CET 2019 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:07 KSI2K hours (7 KSI2K seconds)
+                 This process corresponds to     : 0:00:30 HS06  hours (30 HS06  seconds)

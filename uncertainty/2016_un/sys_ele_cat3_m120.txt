@@ -1,0 +1,11 @@
+CMS_PU_13TeV       lnN     1.001  1.00077  1.00115  1.00173   1.00093
+CMS_HLTeff_e_13TeV       lnN     1.00257  1.0027  1.00269  1.00271   1.0027
+CMS_IDeff_g_13TeV       lnN     1.02225  1.02103  1.02152  1.0241   1.02194
+CMS_IDeff_e_13TeV       lnN     1.01519  1.01616  1.01591  1.01642   1.01621
+CMS_JEC_13TeV      lnN     1.01318  1.05292  1.03376  1.03717   1.03346
+CMS_JER_13TeV      lnN     0.993411  0.995188  1.0936  1   1.01078
+CMS_R9_13TeV      lnN     0.997726  0.96623  1.08686  0.931277   0.94433
+CMS_hzg_delta_eleEM_mean_ggF_cat3  param  0	0.000679225
+CMS_hzg_delta_eleEM_sigma_ggF_cat3  param  0	1.06248
+CMS_hzg_delta_eleEM_mean_VBF_cat3  param  0	0.000560974
+CMS_hzg_delta_eleEM_sigma_VBF_cat3  param  0	0.948908

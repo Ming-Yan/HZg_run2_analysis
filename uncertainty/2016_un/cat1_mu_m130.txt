@@ -1,0 +1,38 @@
+CMS_HLTeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_HLTeff_m_13TeV	lnN	1.013	1.013	1.013	1.013	1.013	-
+CMS_IDeff_e_13TeV	lnN	-	-	-	-	-	-
+CMS_IDeff_g_13TeV	lnN	1.02251	1.022903	1.022541	1.021441	1.022733	-
+CMS_IDeff_m_13TeV	lnN	1.003989	1.004235	1.004314	1.004593	1.00423	-
+CMS_JEC_13TeV	lnN	1.000133	1.008047	1.0	1.0	1.0	-
+CMS_JER_13TeV	lnN	1.000133	1.002926	1.0	1.0	1.0	-
+CMS_PU_13TeV	lnN	1.006094	1.009412	1.013455	1.007151	1.00656	-
+CMS_R9_13TeV	lnN	1.053182	1.057143	1.053604	1.053604	1.053604	-
+CMS_hzg_PS_13TeV	lnN	1.015209	1.042806	1.015209	1.015209	1.015209	-
+CMS_hzg_UE_13TeV	lnN	1.002916	1.035305	1.002916	1.002916	1.002916	-
+QCDscale_VH	lnN	-	-	-	0.968/1.039	0.993/1.004	-
+QCDscale_ggH	lnN	0.962/1.038	-	-	-	-	-
+QCDscale_qqH	lnN	-	0.997/1.004	-	-	-	-
+QCDscale_ttH	lnN	-	-	0.907/1.058	-	-	-
+pdf_Higgs_gg	lnN	0.968/1.032	-	-	-	-	-
+pdf_Higgs_qqbar	lnN	-	0.979/1.021	-	0.984/1.016	0.982/1.018	-
+pdf_Higgs_ttH	lnN	-	-	0.964/1.036	-	-	-
+CMS_hzg_delta_muonRochor_mean_ggF_cat1	param	0	0.000360
+CMS_hzg_delta_muonRochor_sigma_ttH_cat1	param	0	0.053618
+CMS_hzg_delta_eleEM_mean_VBF_cat1	param	0	0.001360
+CMS_hzg_delta_muonRochor_sigma_ZH_cat1	param	0	0.042488
+CMS_hzg_delta_eleEM_mean_ggF_cat1	param	0	0.001362
+CMS_hzg_delta_muonRochor_mean_WH_cat1	param	0	0.000421
+CMS_hzg_delta_eleEM_sigma_VBF_cat1	param	0	0.038493
+CMS_hzg_delta_muonRochor_mean_ttH_cat1	param	0	0.000421
+CMS_hzg_delta_eleEM_sigma_ggF_cat1	param	0	0.071127
+CMS_hzg_delta_muonRochor_sigma_WH_cat1	param	0	0.053618
+CMS_hzg_delta_muonRochor_mean_VBF_cat1	param	0	0.000421
+CMS_hzg_delta_muonRochor_mean_ZH_cat1	param	0	0.000370
+CMS_hzg_delta_eleEM_sigma_ZH_cat1	param	0	0.083955
+CMS_hzg_delta_eleEM_mean_ZH_cat1	param	0	0.001348
+CMS_hzg_delta_muonRochor_sigma_ggF_cat1	param	0	0.044750
+CMS_hzg_delta_eleEM_sigma_WH_cat1	param	0	0.038493
+CMS_hzg_delta_muonRochor_sigma_VBF_cat1	param	0	0.053618
+CMS_hzg_delta_eleEM_mean_ttH_cat1	param	0	0.001360
+CMS_hzg_delta_eleEM_sigma_ttH_cat1	param	0	0.038493
+CMS_hzg_delta_eleEM_mean_WH_cat1	param	0	0.001360

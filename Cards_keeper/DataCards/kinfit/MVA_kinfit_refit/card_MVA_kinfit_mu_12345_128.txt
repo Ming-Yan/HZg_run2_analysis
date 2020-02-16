@@ -1,0 +1,75 @@
+Combination of card_MVA_kinfit_mu_1234_128.txt  card_MVA_kinfit_mu_5_128.txt
+imax 5 number of bins
+jmax 5 number of processes minus 1
+kmax 9 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes WH_hzg    ch1_ch1   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_1_128.root :newPdf_mu_ggF_cat1
+shapes ZH_hzg    ch1_ch1   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_1_128.root :newPdf_mu_ggF_cat1
+shapes bgr       ch1_ch1   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat1_2016.root w:BkgPdf_2016_mu_cat1
+shapes data_obs  ch1_ch1   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat1_2016.root w:data_obs_mu_cat1
+shapes ggH_hzg   ch1_ch1   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_1_128.root :newPdf_mu_ggF_cat1
+shapes qqH_hzg   ch1_ch1   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_VBF_1_128.root :newPdf_mu_VBF_cat1
+shapes ttH_hzg   ch1_ch1   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_1_128.root :newPdf_mu_ggF_cat1
+shapes WH_hzg    ch1_ch2   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_2_128.root :newPdf_mu_ggF_cat2
+shapes ZH_hzg    ch1_ch2   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_2_128.root :newPdf_mu_ggF_cat2
+shapes bgr       ch1_ch2   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat2_2016.root w:BkgPdf_2016_mu_cat2
+shapes data_obs  ch1_ch2   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat2_2016.root w:data_obs_mu_cat2
+shapes ggH_hzg   ch1_ch2   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_2_128.root :newPdf_mu_ggF_cat2
+shapes qqH_hzg   ch1_ch2   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_VBF_2_128.root :newPdf_mu_VBF_cat2
+shapes ttH_hzg   ch1_ch2   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_2_128.root :newPdf_mu_ggF_cat2
+shapes WH_hzg    ch1_ch3   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_3_128.root :newPdf_mu_ggF_cat3
+shapes ZH_hzg    ch1_ch3   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_3_128.root :newPdf_mu_ggF_cat3
+shapes bgr       ch1_ch3   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat3_2016.root w:BkgPdf_2016_mu_cat3
+shapes data_obs  ch1_ch3   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat3_2016.root w:data_obs_mu_cat3
+shapes ggH_hzg   ch1_ch3   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_3_128.root :newPdf_mu_ggF_cat3
+shapes qqH_hzg   ch1_ch3   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_VBF_3_128.root :newPdf_mu_VBF_cat3
+shapes ttH_hzg   ch1_ch3   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_3_128.root :newPdf_mu_ggF_cat3
+shapes WH_hzg    ch1_ch4   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes ZH_hzg    ch1_ch4   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes bgr       ch1_ch4   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat4_2016.root w:BkgPdf_2016_mu_cat4
+shapes data_obs  ch1_ch4   ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat4_2016.root w:data_obs_mu_cat4
+shapes ggH_hzg   ch1_ch4   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes qqH_hzg   ch1_ch4   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_VBF_4_128.root :newPdf_mu_VBF_cat4
+shapes ttH_hzg   ch1_ch4   ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_4_128.root :newPdf_mu_ggF_cat4
+shapes WH_hzg    ch2       ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_5_128.root :newPdf_mu_ggF_cat5
+shapes ZH_hzg    ch2       ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_5_128.root :newPdf_mu_ggF_cat5
+shapes bgr       ch2       ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat5_2016.root w:BkgPdf_2016_mu_cat5
+shapes data_obs  ch2       ../../PDFs/MVA_kinfit_refit/bkg_MVA_kinfit_WS_mu_cat5_2016.root w:data_obs_mu_cat5
+shapes ggH_hzg   ch2       ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_5_128.root :newPdf_mu_ggF_cat5
+shapes qqH_hzg   ch2       ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_VBF_5_128.root :newPdf_mu_VBF_cat5
+shapes ttH_hzg   ch2       ../../PDFs/MVA_kinfit_refit/WS_MVA_kinfit_mu_ggF_5_128.root :newPdf_mu_ggF_cat5
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1_ch1      ch1_ch2      ch1_ch3      ch1_ch4      ch2        
+observation  -1.0         -1.0         -1.0         -1.0         -1.0       
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                ch1_ch1      ch1_ch1      ch1_ch1      ch1_ch1      ch1_ch1      ch1_ch1      ch1_ch2      ch1_ch2      ch1_ch2      ch1_ch2      ch1_ch2      ch1_ch2      ch1_ch3      ch1_ch3      ch1_ch3      ch1_ch3      ch1_ch3      ch1_ch3      ch1_ch4      ch1_ch4      ch1_ch4      ch1_ch4      ch1_ch4      ch1_ch4      ch2          ch2          ch2          ch2          ch2          ch2        
+process                            ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr          ZH_hzg       ggH_hzg      WH_hzg       qqH_hzg      ttH_hzg      bgr        
+process                            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1            -4           -3           -2           -1           0            1          
+rate                               0.1251       10.3154      0.0860       0.2981       0.0254       1.0000       0.0709       6.3673       0.0554       0.1916       0.0158       1.0000       0.0626       5.4968       0.0475       0.1657       0.0115       1.0000       0.0702       4.8017       0.0524       0.1523       0.0074       1.0000       0.0095       0.5611       0.0138       0.8180       0.0213       1.0000     
+----------------------------------------------------------------------------------------------------------------------------------
+QCDscale_VH             lnN        0.969/1.038  -            0.993/1.005  -            -            -            0.969/1.038  -            0.993/1.005  -            -            -            0.969/1.038  -            0.993/1.005  -            -            -            0.969/1.038  -            0.993/1.005  -            -            -            0.969/1.038  -            0.993/1.005  -            -            -          
+QCDscale_ggH            lnN        -            0.933/1.046  -            -            -            -            -            0.933/1.046  -            -            -            -            -            0.933/1.046  -            -            -            -            -            0.933/1.046  -            -            -            -            -            0.933/1.046  -            -            -            -          
+QCDscale_qqH            lnN        -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -            -            -            -            0.997/1.004  -            -          
+QCDscale_ttH            lnN        -            -            -            -            0.908/1.058  -            -            -            -            -            0.908/1.058  -            -            -            -            -            0.908/1.058  -            -            -            -            -            0.908/1.058  -            -            -            -            -            0.908/1.058  -          
+br_Higgs                lnN        0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -            0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  0.943/1.057  -          
+lumi_13TeV              lnN        1.062        1.062        1.062        1.062        1.062        -            1.062        1.062        1.062        1.062        1.062        -            1.062        1.062        1.062        1.062        1.062        -            1.062        1.062        1.062        1.062        1.062        -            1.062        1.062        1.062        1.062        1.062        -          
+pdf_Higgs_qqbar         lnN        0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -            0.984/1.016  -            0.981/1.019  0.979/1.021  -            -          
+pdf_ggH                 lnN        -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -            -            0.968/1.032  -            -            -            -          
+pdf_ttH                 lnN        -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -            -            -            -            -            0.964/1.036  -          
+BkgPdf_2016_p0_mu_cat3  flatParam
+BkgPdf_2016_p3_mu_cat1  flatParam
+BkgPdf_2016_p3_mu_cat2  flatParam
+BkgPdf_2016_p3_mu_cat3  flatParam
+BkgPdf_2016_p3_mu_cat4  flatParam
+BkgPdf_2016_p0_mu_cat2  flatParam
+BkgPdf_2016_p1_mu_cat2  flatParam
+BkgPdf_2016_p0_mu_cat4  flatParam
+BkgPdf_2016_p0_mu_cat1  flatParam
+BkgPdf_2016_p1_mu_cat5  flatParam
+BkgPdf_2016_p2_mu_cat4  flatParam
+BkgPdf_2016_p1_mu_cat4  flatParam
+BkgPdf_2016_p2_mu_cat2  flatParam
+BkgPdf_2016_p2_mu_cat1  flatParam
+BkgPdf_2016_p1_mu_cat3  flatParam
+BkgPdf_2016_p2_mu_cat3  flatParam
+BkgPdf_2016_p1_mu_cat1  flatParam
