@@ -2,9 +2,6 @@
 
 Update all files to full run2 dataset version - 20190807
 
-Info for the run2 analysis : https://docs.google.com/spreadsheets/d/1NFmD_fhFDfkbaB7yR5HKtUo6IYOH0OegRJWsfGBSW5k/edit#gid=0
-Details see here https://paper.dropbox.com/doc/HZg-analysis-of-full-run2--AiW_cVf_oO5htKL8hNclYhKGAg-vW8fBXoDpODOmGV49dN7y
-Sychronization between James https://paper.dropbox.com/doc/Synchronization-between-James-Ming-Yan--AiYVHjyNyoyEXiN0nJiiSBWGAg-63cKL2rz8bnth1SJgTsp1
 
 
 # Directory
